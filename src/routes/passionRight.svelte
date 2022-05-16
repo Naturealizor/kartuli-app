@@ -18,17 +18,6 @@
 </section>
 
 <style>
-	h1 {
-		font-family: 'Baskerville';
-		font-style: normal;
-		font-weight: 400;
-		font-size: 32px;
-		line-height: 37px;
-		letter-spacing: 0.35em;
-		text-transform: uppercase;
-		color: #c88f34;
-	}
-
 	h2,
 	h3,
 	h4 {
@@ -71,27 +60,9 @@
 		background-size: contain;
 		background-repeat: no-repeat;
 		background-attachment: scroll;
-		/* color: white; */
 		background-position: left;
 	}
 	.content-wrapper {
 		grid-column: 2;
 	}
-
-	.abvInfo-Wrapper {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-	}
-	.abvSizes {
-		display: grid;
-		grid-template-columns: 25% 25% 25%;
-	}
-	.abvInfo-Wrapper p {
-		margin-block-start: 0;
-		margin-block-end: 1em;
-		/* margin-right: 15%; */
-	}
-
-	/*
-	*/
 </style>

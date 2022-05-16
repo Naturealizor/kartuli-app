@@ -15,21 +15,21 @@
 			</picture>
 			<ul class="navLinks">
 				<div>
-					<li><a class="navLinks-a" href="./about.html">about</a></li>
+					<li><a class="navLinks-a" href="./about-us">about</a></li>
 				</div>
 				<div>
-					<li><a class="navLinks-a" href="./news.html">news</a></li>
+					<li><a class="navLinks-a" href="./news">news</a></li>
 				</div>
 				<div>
 					<li>
-						<a class="navLinks-a" href="./portfolio.html">portfolio</a>
+						<a class="navLinks-a" href="./portfolio">portfolio</a>
 					</li>
 				</div>
 				<div>
-					<li><a class="navLinks-a" href="./shop.html">shop</a></li>
+					<li><a class="navLinks-a" href="./shop">shop</a></li>
 				</div>
 				<div>
-					<li><a class="navLinks-a" href="./cart.html">cart</a></li>
+					<li><a class="navLinks-a" href="./cart">cart</a></li>
 				</div>
 			</ul>
 		</div>
