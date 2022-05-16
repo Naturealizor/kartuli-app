@@ -2,6 +2,8 @@
 	import Nav from './navigation.svelte';
 	import Footer from './footer.svelte';
 	import Carousel from './productCarousel.svelte';
+	
+	
 </script>
 
 <!--  -->

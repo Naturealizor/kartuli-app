@@ -1,7 +1,9 @@
 <script>
 	import Nav from './navigation.svelte';
 	import Footer from './footer.svelte';
-	import SectionTwo from './passionRight.svelte';
+	import SectionTwo from './description-section-right.svelte';
+	import Carousel from './productCarousel.svelte';
+	import Btm from './product-description-sectionbtm.svelte';
 </script>
 
 <Nav />
@@ -35,7 +37,8 @@
 	</div>
 </section>
 <SectionTwo />
-
+<Carousel />
+<Btm />
 <Footer />
 
 <style>
@@ -86,7 +89,8 @@
 
 	.sectionTop {
 		display: flex;
-		background-image: url(./images/productDescription_Passion_TopSection.jpg);
+		/* need to rename the files that are like this */
+		background-image: url(./images/productDescription_Passion_TopSection.jpg); 
 		width: 100%;
 		height: auto;
 		object-fit: cover;

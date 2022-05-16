@@ -1,3 +1,9 @@
+<script>
+	import Icon from 'svelte-awesome';
+	import angleLeft from 'svelte-awesome/icons/angleLeft';
+</script>
+
+<!-- Each card needs to have an anchor for the navigation -->
 <section class="portfolioSelection">
 	<h2 class="centeredSectionTitle">portfolio selections</h2>
 	<div class="carouselWrapper">
@@ -37,12 +43,25 @@
 				<h4 style="padding-left: 10px;">Liqueurs</h4>
 			</div>
 		</div>
-		<button class="ctrl-btn pro-prev">Prev</button>
+
+		<Icon data={angleLeft} style="margin-top: 5px;
+		margin-bottom: 155px;
+		padding: 20px 20px;
+		min-width: 50px;
+		color: black;
+		border: none;
+		font-weight: 600;
+		text-align: center;
+		cursor: pointer;
+		outline: none;
+		position: absolute;
+		left: 0;"/>
 		<button class="ctrl-btn pro-next">Next</button>
 	</div>
 </section>
 
 <style>
+
 	.portfolioSelection {
 		background-color: white;
 		height: 600px;
@@ -96,9 +115,6 @@
 		position: absolute;
 	}
 
-	.ctrl-btn.pro-prev {
-		left: 0;
-	}
 
 	.ctrl-btn.pro-next {
 		right: 0;
