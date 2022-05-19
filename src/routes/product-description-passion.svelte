@@ -88,9 +88,9 @@
 	}
 
 	.sectionTop {
-		display: flex;
 		/* need to rename the files that are like this */
-		background-image: url(./images/productDescription_Passion_TopSection.jpg); 
+		background-image: url(./images/productDescription_Passion_TopSection.jpg);
+		display: flex;
 		width: 100%;
 		height: auto;
 		object-fit: cover;

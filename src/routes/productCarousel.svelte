@@ -1,6 +1,7 @@
 <script>
 	import Icon from 'svelte-awesome';
-	import angleLeft from 'svelte-awesome/icons/angleLeft';
+	import chevronLeft from 'svelte-awesome/icons/chevronLeft';
+	import chevronRight from 'svelte-awesome/icons/chevronRight';
 </script>
 
 <!-- Each card needs to have an anchor for the navigation -->
@@ -43,10 +44,10 @@
 				<h4 style="padding-left: 10px;">Liqueurs</h4>
 			</div>
 		</div>
-
-		<Icon data={angleLeft} style="margin-top: 5px;
-		margin-bottom: 155px;
-		padding: 20px 20px;
+	</div>
+	<Icon
+		data={chevronLeft}
+		style="
 		min-width: 50px;
 		color: black;
 		border: none;
@@ -55,16 +56,28 @@
 		cursor: pointer;
 		outline: none;
 		position: absolute;
-		left: 0;"/>
-		<button class="ctrl-btn pro-next">Next</button>
-	</div>
+		left: 0;
+		"
+	/>
+	<Icon
+		data={chevronRight}
+		style="margin-top: 5px;
+		min-width: 50px;
+		color: black;
+		border: none;
+		font-weight: 600;
+		text-align: center;
+		cursor: pointer;
+		outline: none;
+		position: absolute;
+		right: 0;"
+	/>
 </section>
 
-<style>
-
+<style lang="scss">
 	.portfolioSelection {
 		background-color: white;
-		height: 600px;
+		height: 500px;
 		width: 100%;
 	}
 	.carouselWrapper {
@@ -72,16 +85,13 @@
 		height: 400px;
 		display: flex;
 		padding-bottom: 20px;
-		margin: 0 2%;
+		margin: 0 4%;
 		align-items: flex-end;
 		justify-content: space-evenly;
-		/* overflow-x: scroll; */
-		overflow-y: hidden;
-	}
-
-	.prodCard {
-		width: 12%;
-		padding-bottom: 2em;
+		.prodCard {
+			width: 12%;
+			padding-bottom: 2em;
+		}
 	}
 
 	.prodDescription {
@@ -99,30 +109,11 @@
 	.prodCard:hover {
 		transform: scale(1.2);
 	}
-
-	.ctrl-btn {
-		margin-top: 5px;
-		margin-bottom: 155px;
-		padding: 20px 20px;
-		min-width: 50px;
-		background: rgb(0, 0, 0);
-		color: white;
-		border: none;
-		font-weight: 600;
-		text-align: center;
-		cursor: pointer;
-		outline: none;
-		position: absolute;
-	}
-
-
-	.ctrl-btn.pro-next {
-		right: 0;
-	}
 	.centeredSectionTitle {
 		text-align: center;
 		color: #c88f34;
 		padding-top: 25px;
+		padding-bottom: 15px;
 		text-transform: uppercase;
 		font-family: 'Baskerville';
 		font-style: normal;

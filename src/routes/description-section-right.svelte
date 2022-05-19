@@ -18,7 +18,18 @@
 </section>
 
 <style>
-	h2,
+	h2 {
+	
+		font-family: 'Baskerville';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 32px;
+		line-height: 37px;
+		letter-spacing: 0.35em;
+		text-transform: uppercase;
+		color: #c88f34;
+	
+	}
 	h3,
 	h4 {
 		font-family: 'Futura';
@@ -31,7 +42,7 @@
 		margin-top: 6em;
 		color: #c88f34;
 	}
-	h3,
+	
 	h4 {
 		letter-spacing: 0.05em;
 		font-size: 16px;

@@ -2,66 +2,81 @@
 	import Nav from './navigation.svelte';
 	import Footer from './footer.svelte';
 	import Carousel from './productCarousel.svelte';
-	
-	
 </script>
 
-<!--  -->
-<video autoplay muted loop class="headerVid" src="./images/2022-04-29 21-20-00.mp4" />
+<!-- {#if  }
+	
+{/if} -->
+<video
+	muted
+	loop
+	class="md:hidden  bg-center bg-fixed bg-cover w-full"
+	src="./images/2022-04-29 21-20-00.mp4"
+/>
 <Nav />
 <main>
-	<section id="figVodka">
-		<div class="sectionSideText">
+	<section
+		class="bg-kartuli-fig md:bg-kartuli-fig-sm bg-fixed bg-cover md:bg-scroll bg-no-repeat md:bg-cover h-screen w-full"
+	>
+		<div class="grid auto-col-max py-48 px-24 w-2/5">
 			<h2 id="introP">introducing kartuli's new</h2>
 			<p id="prodP">fig vodka</p>
 			<p id="contentP">
-				It's sweetness is subtle enough to be mixed and matched to enhance any of your favorite
-				classic cocktail recipes.
+				It's sweetness is subtle enough to be mixed <br />and matched to enhance any of your
+				favorite classic cocktail recipes.
 			</p>
 			<div class="btnWrapper">
-				<button class="btnShopNow" type="button"><a href="#">shop now</a></button>
+				<button
+					class="bg-white text-black  py-2 px-4 lg:px- border border-black hover:border-kartuli-orange rounded-none align-middle mt-4 uppercase font-futura not-italic font-medium text-xs leading-3 tracking-wider justify-center"
+					type="button"><a href="./shop">shop now</a></button
+				>
 			</div>
 		</div>
 	</section>
 
 	<Carousel />
 
-	<section class="learnMore">
-		<div>
+	<section class="bg-vineyard lg:bg-vineyard-sm bg-scroll bg-no-repeat bg-cover h-screen w-full">
+		<div class="flex flex-col items-center ">
 			<h2 class="centeredSectionTitle">innovative georgian craftsmanship</h2>
-			<p style="color: white; margin-left: 40%; margin-right: 40%;">
+			<p
+				class="font-josefin text-xl font-light leading-7 text-black text-center w-2/5 mx-auto mt-8"
+			>
 				Kartuli Vodka is a luxurious ultra-premium vodka made from fine Georgian grapes to be the
 				toast of modern luxury.
 			</p>
+			<button
+				class="bg-white text-black font-semibold  py-2 px-4 border border-black hover:border-transparent rounded-none align-middle mt-4 uppercase text-sm"
+				>learn more</button
+			>
 		</div>
+	</section>
+	<section class="grid grid-cols-3 gap-5 gap-y-5 mt-5 mb-2 w-full">
+		<picture class="col-span-1 bg-cover">
+			<img src="./images/drink-collection-1-md.jpg" alt="citrus drink" />
+		</picture>
+		<picture>
+			<img src="./images/drink-collection-2-md.jpg" alt="pink fizzy drink" />
+		</picture>
+		<picture>
+			<img src="./images/drink-collection-3-md.jpg" alt="cucumber drink" />
+		</picture>
+		<picture class="col-span-2">
+			<img src="./images/drink-collection-big-md.jpg" alt="friends cheering drinks" />
+		</picture>
+		<picture>
+			<div class=" bg-kartuli-orange">
+				<img class="z-0" src="./images/drink-collection-last-md.jpg" alt="rum and coke" />
+				<h3 class="capitalize text-white text-3xl z-10">kartuli <br /> drink collection</h3>
+			</div>
+		</picture>
 	</section>
 	<Footer />
 </main>
 
-<style>
-	main {
-		background-color: #000000;
-	}
-	.headerVid {
-		width: 100%;
-		height: 100%;
-		object-fit: cover;
-		object-position: center center;
-		background-attachment: fixed;
-	}
-	#figVodka {
-		background-image: url(./images/homePage_Section2.jpg);
-		background-attachment: fixed;
-		background-repeat: no-repeat;
-		background-size: cover;
-		height: 878px;
-		width: 100%;
-	}
-
-	.sectionSideText {
-		padding: 12em 5em;
-		height: 50%;
-		width: 30%;
+<style lang="scss">
+	.btnWrapper {
+		text-align: center;
 	}
 
 	#introP {
@@ -74,7 +89,7 @@
 		letter-spacing: 0.05em;
 		text-transform: uppercase;
 		color: #ffffff;
-		margin: 10px;
+		/* margin: 10px; */
 	}
 
 	#prodP {
@@ -96,47 +111,16 @@
 		font-family: 'Josefin Sans';
 		font-style: normal;
 		font-weight: 300;
-		font-size: 16px;
+		font-size: 20px;
 		line-height: 140.4%;
 		text-align: center;
 		color: #ffffff;
 	}
 
-	.btnShopNow {
-		padding: 10px 30px;
-		position: absolute;
-		width: auto;
-		height: auto;
-		left: 16%;
-		background: #ffffff;
-		border: 2px solid #000000;
-		box-sizing: border-box;
-		font-family: 'Futura';
-		font-style: normal;
-		font-weight: 500;
-		font-size: 10px;
-		line-height: 13px;
-		letter-spacing: 0.05em;
-		text-transform: uppercase;
-	}
-
-	.btnShopNow > a {
-		text-decoration: none;
-		color: black;
-	}
-
-	.btnShopNow:hover {
-		background: red;
-	}
-
-	.btnShopNow:hover > a {
-		color: white;
-	}
-
 	.centeredSectionTitle {
 		text-align: center;
 		color: #c88f34;
-		padding-top: 25px;
+		margin-top: 5%;
 		text-transform: uppercase;
 		font-family: 'Baskerville';
 		font-style: normal;
@@ -144,14 +128,5 @@
 		font-size: 32px;
 		line-height: 37px;
 		letter-spacing: 0.05em;
-	}
-
-	.learnMore {
-		background-image: url(./images/grape\ in\ bottle\ close\ up\ 2.jpg);
-		background-attachment: scroll;
-		background-repeat: no-repeat;
-		background-size: cover;
-		height: 878px;
-		width: 100%;
 	}
 </style>

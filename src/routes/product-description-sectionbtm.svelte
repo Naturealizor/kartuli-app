@@ -2,8 +2,11 @@
 
 <section>
 	<div class="sectionContent">
-		<h3>create excitment at home</h3>
-		<h2>mixed drinks</h2>
+		<div class="contentWrapper">
+
+			<h3>create excitment at home</h3>
+			<h2>mixed drinks</h2>
+		</div>
 	</div>
 </section>
 
@@ -20,11 +23,23 @@
 		line-height: 21px;
 		letter-spacing: 0.15em;
 		text-transform: uppercase;
-		margin-top: 6em;
+		margin-top: 3em;
 		color: #c88f34;
 	}
     .sectionContent {
-		margin: 8em 8em;
-		width: 40vw;
+		display: grid;
+		grid-template-columns: 2fr 1fr;
+		grid-template-rows: 1fr 1.5fr;
+		background-image: url(./images/productDescription_BtmSection.jpg);
+		margin: 5em 8em;
+		width: 80vw;
+		object-fit: cover;
+		object-position: center center;
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-attachment: scroll;
+	}
+	.contentWrapper {
+		grid-column: 2;
 	}
 </style>

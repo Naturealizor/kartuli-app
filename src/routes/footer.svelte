@@ -1,43 +1,85 @@
-<footer>
-	<hr />
-	<img src="./images/kartuli spirits 1.png" alt="Kartuli Logo" />
-	<div class="footer-links">
-		<ul>
-			<li><a class="" href="./team">team</a></li>
-			<li><a class="" href="./distillery">distillery</a></li>
-			<li><a class="" href="./kartuli-club">kartuili club</a></li>
-			<li><a class="" href="./ambassadors">ambassadors</a></li>
-			<li><a class="" href="./press">press</a></li>
-			<li><a class="" href="./media-kit">media kit</a></li>
-			<li><a class="" href="./distribution">distribution</a></li>
-			<li><a class="" href="./legal">legal</a></li>
-			<li><a class="" href="./contact-us">contact</a></li>
-		</ul>
+<footer class="mb-11 mt-7">
+	<hr class="border-kartuli-orange border mt-8" />
+	<div class="grid grid-cols-10  justify-items-center items-center">
+		<img
+			class="scale-125 col-span-2 ml-28 mt-8"
+			src="./images/kartuli spirits 1.png"
+			alt="Kartuli Logo"
+		/>
+		<div class="grid col-span-6 col-start-3 justify-center items-center text-center">
+			<ul class="anchor-links">
+				<li><a class="text-center p-5 text-tiny" href="./team">team</a></li>
+				<li><a class="text-center p-5 text-tiny" href="./distillery">distillery</a></li>
+				<li><a class="text-center p-5 text-tiny" href="./kartuli-club">kartuili club</a></li>
+				<li><a class="text-center p-5 text-tiny" href="./ambassadors">ambassadors</a></li>
+				<li><a class="text-center p-5 text-tiny" href="./press">press</a></li>
+				<li><a class="text-center p-5 text-tiny" href="./media-kit">media kit</a></li>
+				<li><a class="text-center p-5 text-tiny" href="./distribution">distribution</a></li>
+				<li><a class="text-center p-5 text-tiny" href="./legal">legal</a></li>
+				<li><a class="text-center p-5 text-tiny" href="./contact-us">contact</a></li>
+			</ul>
+		</div>
+		<div class="footer-right">
+			<h5
+				class="text-kartuli-orange text-center font-futura text-base uppercase leading-5 font-medium"
+			>
+				social media
+			</h5>
+			<div class="flex m-0 p-0 mx-8 my-4">
+				<a href="#"><img src="./images/facebook.png" alt="facebook" /></a>
+				<a href="#"><img src="./images/instagram.png" alt="instagram" /></a>
+				<a href="#"><img src="./images/linkedin.png" alt="linkedin" /></a>
+			</div>
+			<div class="flex">
+				<a href=""
+					><p class="capitalize font-futura text-kartuli-orange text-tiny">
+						please drink responsibly
+					</p></a
+				>
+				<a href="./site-map"
+					><p class="capitalize font-futura text-kartuli-orange text-tiny">site map</p></a
+				>
+			</div>
+		</div>
 	</div>
 </footer>
 
-<style>
-	.footer-links {
-		display: inline-block;
-	}
-
-	.footer-links ul {
-		display: flex;
-		list-style: none;
-		/* padding-bottom: 10px; */
-	}
-
-	.footer-links li,
+<style lang="scss">
 	a {
 		font-family: 'Futura';
 		font-style: normal;
 		font-weight: 500;
-		font-size: 10px;
+		font-size: 12px;
 		line-height: 13px;
 		letter-spacing: 0.05em;
 		text-transform: uppercase;
 		color: var(--white);
-		padding: 10px;
+		padding: 1em;
+		margin-left: 1em;
 		text-decoration: none;
+	}
+
+	.footer-right {
+		grid-column: 9 / span 2;
+
+		h5 {
+			margin-top: 8%;
+		}
+		a,
+		p {
+			margin-right: 0.5rem;
+			// margin-top: 0.5rem;
+			padding: 0;
+		}
+	}
+
+	.anchor-links {
+		display: flex;
+		text-align: center;
+		a {
+			font-size: 10px;
+			padding: 0 1rem;
+			text-align: center;
+		}
 	}
 </style>
