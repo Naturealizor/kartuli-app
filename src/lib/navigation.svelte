@@ -1,6 +1,3 @@
-<script>
-</script>
-
 <header>
 	<nav>
 		<hr class="border-kartuli-orange border mt-5" />
@@ -10,7 +7,7 @@
 			</picture>
 			<picture class="col-start-3 col-span-2">
 				<img
-					class=" scale-125  rounded-full border-15 border-black "
+					class=" scale-125 rounded-full border-8 border-black"
 					src="./images/crest_2.png"
 					alt="Georgia Crest"
 				/>
@@ -20,15 +17,15 @@
 					<div>
 						<li>
 							<a
-								class=" font-futura no-underline text-white px-7  6 lap:px-4 xl:px-3 lg:px-1.5 md:px-.75 uppercase tracking-wider font-medium not-italic text-lg xl:text-base lg:text-sm items-center"
-								href="./">about</a
+								class="font-futura no-underline text-white px-5 xl:px-3 lg:px-1.5 md:px-.75 uppercase tracking-wider font-medium not-italic text-xs items-center"
+								href="./about-us">about</a
 							>
 						</li>
 					</div>
 					<div>
 						<li>
 							<a
-								class="font-futura no-underline text-white px-7 2xl:px-5 lap:px-4 xl:px-3 lg:px-1.5 md:px-.75 uppercase tracking-wider font-medium not-italic text-lg xl:text-base lg:text-sm items-center"
+								class="font-futura no-underline text-white px-5 lap:px-4 xl:px-3 md-b:px-2 lg:px-1.5 md:px-.75 uppercase tracking-wider font-medium not-italic text-xs items-center"
 								href="./news">news</a
 							>
 						</li>
@@ -36,37 +33,33 @@
 					<div class="dropdown">
 						<!-- svelte-ignore a11y-invalid-attribute -->
 						<a
-							class="font-futura no-underline text-white px-7 2xl:px-5 lap:px-4 xl:px-3 lg:px-1.5 md:px-.75 uppercase tracking-wider font-medium not-italic text-lg xl:text-base lg:text-sm items-center"
+							class="font-futura no-underline text-white px-5 lap:px-4 xl:px-3 lg:px-1.5 md:px-.75 uppercase tracking-wider font-medium not-italic text-xs items-center"
 							href="#"
 						>
 							portfolio</a
 						>
 						<div class="dropdown-content">
-							<a href="/">artisan</a>
-							<a href="/">premium</a>
-							<a href="/">flavored</a>
-							<a href="/">international</a>
-							<a href="/">brandy</a>
-							<a href="/">liqueurs</a>
+							<a href="/artisan">artisan</a>
+							<a href="/premium">premium</a>
+							<a href="/flavored">flavored</a>
+							<a href="/international">international</a>
+							<a href="/brandy">brandy</a>
+							<a href="/liqueurs">liqueurs</a>
 						</div>
 					</div>
 					<div>
 						<li>
 							<a
-								class="font-futura no-underline text-white px-7 2xl:px-5 lap:px-4 xl:px-3 lg:px-1.5 md:px-.75 uppercase tracking-wider font-medium not-italic text-lg xl:text-base lg:text-sm items-center"
+								class="font-futura no-underline text-white px-5 lap:px-4 xl:px-3 lg:px-1.5 md:px-.75 pt-2 uppercase tracking-wider font-medium not-italic text-xs items-center"
 								href="./shop">shop</a
 							>
 						</li>
 					</div>
 					<div>
 						<li class="flex">
-							<img
-								class="scale-105 my-1 pl-2 pr-1"
-								src="./images/shopping-cart 1.png"
-								alt="cart icon"
-							/>
+							<img class=" my-2 pl-2 pr-1" src="./images/shopping-cart 1.png" alt="cart icon" />
 							<a
-								class="font-futura no-underline text-white  uppercase tracking-wider font-light not-italic text-lg  xl:text-base lg:text-sm items-center"
+								class="font-futura no-underline text-white pt-1 uppercase tracking-wider font-medium not-italic text-xs items-center mt-1"
 								href="./cart">cart</a
 							>
 						</li>

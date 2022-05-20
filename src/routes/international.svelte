@@ -1,9 +1,10 @@
 <script>
 	import Nav from '$lib/navigation.svelte';
 	import Footer from '$lib/footer.svelte';
-	import { breakpoint, platform } from './MediaQuery.svelte';
 </script>
 
 <Nav />
-<main />
+<section />
+<section />
+<section />
 <Footer />

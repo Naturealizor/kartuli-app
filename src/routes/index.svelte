@@ -1,8 +1,18 @@
 <script>
-	import Nav from './navigation.svelte';
-	import Footer from './footer.svelte';
-	import Carousel from './productCarousel.svelte';
+	import Nav from '$lib/navigation.svelte';
+	import Footer from '$lib/footer.svelte';
+	import Carousel from '$lib/productCarousel.svelte';
+	import { fade, fly } from 'svelte/transition';
 </script>
+
+<svelte:head>
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link
+		href="https://fonts.googleapis.com/css2?family=Baskervville&family=Josefin+Sans:wght@300&display=swap"
+		rel="stylesheet"
+	/>
+</svelte:head>
 
 <!-- {#if  }
 	
@@ -16,9 +26,11 @@
 <Nav />
 <main>
 	<section
-		class="bg-kartuli-fig md:bg-kartuli-fig-sm bg-fixed bg-cover md:bg-scroll bg-no-repeat md:bg-cover h-screen w-full"
+		class="bg-kartuli-fig bg-auto bg-local md:bg-scroll bg-no-repeat md:bg-cover h-auto w-full object-end"
 	>
-		<div class="grid auto-col-max py-48 px-24 w-2/5">
+		<div
+			class="grid auto-col-max py-28 lg:py-26 xl:py-22 px-24 lg:px-5 xl:px-3 w-2/5 lg:w-1/2 xl:w-3/5"
+		>
 			<h2 id="introP">introducing kartuli's new</h2>
 			<p id="prodP">fig vodka</p>
 			<p id="contentP">
@@ -61,8 +73,8 @@
 		<picture>
 			<img src="./images/drink-collection-3-md.jpg" alt="cucumber drink" />
 		</picture>
-		<picture class="col-span-2">
-			<img src="./images/drink-collection-big-md.jpg" alt="friends cheering drinks" />
+		<picture class="col-span-2 mr-0">
+			<img src="./images/drinks-bigone (Custom).jpg" alt="friends cheering drinks" />
 		</picture>
 		<picture>
 			<div class=" bg-kartuli-orange grid-cols-3 grid-rows-2 relative">

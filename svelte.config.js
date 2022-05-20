@@ -6,6 +6,10 @@ const config = {
 	kit: {
 		adapter: adapter()
 	},
+	files: {
+		lib: 'scr/lib',
+		routes: 'src/routes',
+	},
 	preprocess: sveltePreprocess()
 };
 

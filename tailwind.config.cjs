@@ -4,12 +4,13 @@ module.exports = {
     extend: {
       borderWidth: {
         '15': '15px',
+        '25': '25px',
       },
       fontSize: {
         'tiny': '.5rem',
       },
       fontFamily: {
-        'futura': ['"Futura Md BT"'],
+        'futura': ['Futura'],
         'josefin': ['Josefin Sans'],
         'basker': ['Baskerville'],
       },
@@ -21,7 +22,8 @@ module.exports = {
         'kartuli-fig': "url('./images/homePage_Section2.jpg')",
         'vineyard': "url(./images/vineyard.jpg);",
         'vineyard-sm': "url(./images/vineyard-sm.jpg);",
-        'drink-collection': "url(./images/drink-with-bar.jpg)"
+        'drink-collection': "url(./images/drink-with-bar.jpg)",
+        'copper-still': "url(./images/copper-still-sm.jpg)"
       }
     },
     variants: {

@@ -12,28 +12,41 @@
 					<a class="text-center p-5 text-tiny" href="./team">team</a>
 				</li>
 				<li class="flex items-start">
-					<a class="text-center p-5 text-tiny" href="./distillery">distillery</a>
+					<a class="text-center p-5 text-tiny xl:text-base 2xl:text-lg" href="./distillery"
+						>distillery</a
+					>
 				</li>
 				<li class="flex items-start">
-					<a class="p-5 text-left text-tiny" href="./kartuli-club">kartuili club</a>
+					<a class="p-5 text-left text-tiny xl:text-base 2xl:text-lg" href="./kartuli-club"
+						>kartuili club</a
+					>
 				</li>
 				<li class="flex items-start">
-					<a class="text-center p-5 text-tiny" href="./ambassadors">ambassadors</a>
+					<a class="text-center p-5 text-tiny xl:text-base 2xl:text-lg" href="./ambassadors"
+						>ambassadors</a
+					>
 				</li>
 				<li class="flex items-start">
-					<a class="text-center p-5 botext-tiny" href="./press">press</a>
+					<a class="text-center p-5 botext-tiny xl:text-base 2xl:text-lg" href="./press">press</a>
 				</li>
 				<li class="flex items-start">
-					<a class="text-center p-5 text-tiny" href="./media-kit">media kit</a>
+					<a
+						class="text-center p-5 text-tiny lg:text-xs xl:text-base 2xl:text-lg"
+						href="./media-kit">media kit</a
+					>
 				</li>
 				<li class="flex items-start">
-					<a class="text-center p-5 text-tiny" href="./distribution">distribution</a>
+					<a class="text-center p-5 text-tiny xl:text-base 2xl:text-lg" href="./distribution"
+						>distribution</a
+					>
 				</li>
 				<li class="flex items-start">
-					<a class="text-center p-5 text-tiny" href="./legal">legal</a>
+					<a class="text-center p-5 text-tiny xl:text-base 2xl:text-lg" href="./legal">legal</a>
 				</li>
 				<li class="flex items-start">
-					<a class="text-center p-5 text-tiny" href="./contact-us">contact</a>
+					<a class="text-center p-5 text-tiny xl:text-base 2xl:text-lg" href="./contact-us"
+						>contact</a
+					>
 				</li>
 			</ul>
 		</div>
@@ -92,10 +105,8 @@
 
 	.anchor-links {
 		display: flex;
-		text-align: center;
 		a {
-			font-size: 10px;
-			// padding: 0 1rem;
+			padding: 1rem 1rem;
 			text-align: center;
 		}
 	}

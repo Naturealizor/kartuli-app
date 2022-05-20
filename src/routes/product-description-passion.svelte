@@ -1,8 +1,8 @@
 <script>
-	import Nav from './navigation.svelte';
-	import Footer from './footer.svelte';
-	import SectionTwo from './description-section-right.svelte';
-	import Carousel from './productCarousel.svelte';
+	import Nav from '../lib/navigation.svelte';
+	import Footer from '../lib/footer.svelte';
+	import SectionTwo from '../lib/description-section-right.svelte';
+	import Carousel from '../lib/productCarousel.svelte';
 	import Btm from './product-description-sectionbtm.svelte';
 </script>
 
