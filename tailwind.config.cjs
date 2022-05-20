@@ -10,7 +10,8 @@ module.exports = {
       },
       fontFamily: {
         'futura': ['"Futura Md BT"'],
-        'josefin': ['Josefin Sans']
+        'josefin': ['Josefin Sans'],
+        'basker': ['Baskerville'],
       },
       colors: {
         'kartuli-orange': '#c88f34',
@@ -19,7 +20,8 @@ module.exports = {
       backgroundImage: {
         'kartuli-fig': "url('./images/homePage_Section2.jpg')",
         'vineyard': "url(./images/vineyard.jpg);",
-        'vineyard-sm': "url(./images/vineyard-sm.jpg);"
+        'vineyard-sm': "url(./images/vineyard-sm.jpg);",
+        'drink-collection': "url(./images/drink-with-bar.jpg)"
       }
     },
     variants: {

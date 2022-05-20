@@ -65,9 +65,17 @@
 			<img src="./images/drink-collection-big-md.jpg" alt="friends cheering drinks" />
 		</picture>
 		<picture>
-			<div class=" bg-kartuli-orange">
-				<img class="z-0" src="./images/drink-collection-last-md.jpg" alt="rum and coke" />
-				<h3 class="capitalize text-white text-3xl z-10">kartuli <br /> drink collection</h3>
+			<div class=" bg-kartuli-orange grid-cols-3 grid-rows-2 relative">
+				<img class="z-0 " src="./images/drink-with-bar.jpg" alt="rum and coke" />
+				<h3
+					class="capitalize font-basker text-white text-3xl  xl:text-2xl lg:text-base absolute bottom-2 xl:bottom-1 left-4 z-20"
+				>
+					kartuli <br /> drink collection
+				</h3>
+				<button
+					class="absolute right-6 xl:right-4  bottom-4 xl:bottom-2  border py-3 xl:py-2 px-4 xl:px-3 font-futura text-sm uppercase border-black"
+					>drink recipies</button
+				>
 			</div>
 		</picture>
 	</section>

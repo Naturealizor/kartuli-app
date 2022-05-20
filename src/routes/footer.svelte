@@ -6,17 +6,35 @@
 			src="./images/kartuli spirits 1.png"
 			alt="Kartuli Logo"
 		/>
-		<div class="grid col-span-6 col-start-3 justify-center items-center text-center">
+		<div class="grid col-span-6 gap-2 col-start-3 justify-center items-center text-center">
 			<ul class="anchor-links">
-				<li><a class="text-center p-5 text-tiny" href="./team">team</a></li>
-				<li><a class="text-center p-5 text-tiny" href="./distillery">distillery</a></li>
-				<li><a class="text-center p-5 text-tiny" href="./kartuli-club">kartuili club</a></li>
-				<li><a class="text-center p-5 text-tiny" href="./ambassadors">ambassadors</a></li>
-				<li><a class="text-center p-5 text-tiny" href="./press">press</a></li>
-				<li><a class="text-center p-5 text-tiny" href="./media-kit">media kit</a></li>
-				<li><a class="text-center p-5 text-tiny" href="./distribution">distribution</a></li>
-				<li><a class="text-center p-5 text-tiny" href="./legal">legal</a></li>
-				<li><a class="text-center p-5 text-tiny" href="./contact-us">contact</a></li>
+				<li class="flex items-start">
+					<a class="text-center p-5 text-tiny" href="./team">team</a>
+				</li>
+				<li class="flex items-start">
+					<a class="text-center p-5 text-tiny" href="./distillery">distillery</a>
+				</li>
+				<li class="flex items-start">
+					<a class="p-5 text-left text-tiny" href="./kartuli-club">kartuili club</a>
+				</li>
+				<li class="flex items-start">
+					<a class="text-center p-5 text-tiny" href="./ambassadors">ambassadors</a>
+				</li>
+				<li class="flex items-start">
+					<a class="text-center p-5 botext-tiny" href="./press">press</a>
+				</li>
+				<li class="flex items-start">
+					<a class="text-center p-5 text-tiny" href="./media-kit">media kit</a>
+				</li>
+				<li class="flex items-start">
+					<a class="text-center p-5 text-tiny" href="./distribution">distribution</a>
+				</li>
+				<li class="flex items-start">
+					<a class="text-center p-5 text-tiny" href="./legal">legal</a>
+				</li>
+				<li class="flex items-start">
+					<a class="text-center p-5 text-tiny" href="./contact-us">contact</a>
+				</li>
 			</ul>
 		</div>
 		<div class="footer-right">
@@ -55,7 +73,6 @@
 		text-transform: uppercase;
 		color: var(--white);
 		padding: 1em;
-		margin-left: 1em;
 		text-decoration: none;
 	}
 
@@ -78,7 +95,7 @@
 		text-align: center;
 		a {
 			font-size: 10px;
-			padding: 0 1rem;
+			// padding: 0 1rem;
 			text-align: center;
 		}
 	}
