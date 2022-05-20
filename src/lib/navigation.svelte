@@ -1,6 +1,6 @@
 <header>
 	<nav>
-		<hr class="border-kartuli-orange border mt-5" />
+		<hr class="border-kartuli-orange border mt-8" />
 		<div class="grid grid-cols-6 justify-items-center items-center w-99">
 			<picture class="col-start-1 col-span-2">
 				<a href="/"><img src="./images/kartuli spirits 1.png" alt="Kartuli Logo" /></a>

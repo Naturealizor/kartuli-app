@@ -16,6 +16,7 @@ module.exports = {
       },
       colors: {
         'kartuli-orange': '#c88f34',
+        'kartuli-peach': '#FFCF8F',
         
       },
       backgroundImage: {
@@ -23,7 +24,7 @@ module.exports = {
         'vineyard': "url(./images/vineyard.jpg);",
         'vineyard-sm': "url(./images/vineyard-sm.jpg);",
         'drink-collection': "url(./images/drink-with-bar.jpg)",
-        'copper-still': "url(./images/copper-still-sm.jpg)"
+        'copper-still': "url(./images/copper-still.jpg)"
       }
     },
     variants: {
