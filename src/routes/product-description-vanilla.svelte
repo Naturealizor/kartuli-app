@@ -1,7 +1,7 @@
 <script>
-	import Nav from './navigation.svelte';
-	import Footer from './footer.svelte';
-	import SectionTwo from './passionRight.svelte';
+	import Nav from '$lib/navigation.svelte';
+	import Footer from '$lib/footer.svelte';
+	import SectionTwo from '$lib/description-section-right.svelte';
 </script>
 
 <Nav />
