@@ -4,7 +4,7 @@
 </script>
 
 <Nav />
-<main>
-	<h1>Site is currently under construction!</h1>
-</main>
+<section />
+<section />
+<section />
 <Footer />

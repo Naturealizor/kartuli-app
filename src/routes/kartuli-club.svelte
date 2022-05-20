@@ -1,14 +1,10 @@
 <script>
-    import Nav from './navigation.svelte';
-    import Footer from './footer.svelte';
-    
+	import Nav from '$lib/navigation.svelte';
+	import Footer from '$lib/footer.svelte';
 </script>
 
 <Nav />
 <main>
-    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi aspernatur obcaecati repellat odit numquam, cum culpa! Aspernatur facere vitae, unde optio ipsum ducimus praesentium? Consectetur quae repellat modi quidem deleniti?</h1>
-    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi aspernatur obcaecati repellat odit numquam, cum culpa! Aspernatur facere vitae, unde optio ipsum ducimus praesentium? Consectetur quae repellat modi quidem deleniti?</h1>
-    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi aspernatur obcaecati repellat odit numquam, cum culpa! Aspernatur facere vitae, unde optio ipsum ducimus praesentium? Consectetur quae repellat modi quidem deleniti?</h1>
-    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi aspernatur obcaecati repellat odit numquam, cum culpa! Aspernatur facere vitae, unde optio ipsum ducimus praesentium? Consectetur quae repellat modi quidem deleniti?</h1>
+	<h1>Site is currently under construction!</h1>
 </main>
 <Footer />

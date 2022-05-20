@@ -1,25 +1,10 @@
 <script>
-    import Nav from './navigation.svelte';
-    import Footer from './footer.svelte';
-    import {breakpoint, platform} from './MediaQuery.svelte';
+	import Nav from '$lib/navigation.svelte';
+	import Footer from '$lib/footer.svelte';
 </script>
 
 <Nav />
 <main>
-    {#if $breakpoint == 'xs'}
-<h1>XS</h1>
-{/if}
-
-{#if $platform == 'desktop'}
-<h1>DESKTOP</h1>
-{:else}
-<h1>MOBILE</h1>
-{/if}
+	<h1>Site is currently under construction!</h1>
 </main>
 <Footer />
-
-<style>
-    h1 {
-        color: white;
-    }
-</style>
