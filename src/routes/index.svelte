@@ -73,19 +73,20 @@
 		<picture>
 			<img src="./images/drink-collection-3-md.jpg" alt="cucumber drink" />
 		</picture>
-		<picture class="col-span-2 mr-0">
+		<picture class="col-span-2 my-0">
 			<img src="./images/drinks-bigone (Custom).jpg" alt="friends cheering drinks" />
 		</picture>
 		<picture>
 			<div class=" bg-kartuli-orange grid-cols-3 grid-rows-2 relative">
-				<img class="z-0 " src="./images/drink-with-bar.jpg" alt="rum and coke" />
+				<img class="" src="./images/drink-with-bar.jpg" alt="rum and coke" />
 				<h3
-					class="capitalize font-basker text-white text-3xl  xl:text-2xl lg:text-base absolute bottom-2 xl:bottom-1 left-4 z-20"
+					class="capitalize font-basker text-white text-3xl  xl:text-2xl lg:text-base absolute bottom-5 xl:bottom-1 left-4 z-20"
 				>
-					kartuli <br /> drink collection
+					kartuli drink collection
 				</h3>
+				<!-- xl:bottom-2   xl:py-2 xl:px-3 -->
 				<button
-					class="absolute right-6 xl:right-4  bottom-4 xl:bottom-2  border py-3 xl:py-2 px-4 xl:px-3 font-futura text-sm uppercase border-black"
+					class="absolute right-6 xl:right-4  bottom-4 border py-3 font-futura text-sm uppercase border-black"
 					>drink recipies</button
 				>
 			</div>

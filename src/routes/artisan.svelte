@@ -18,12 +18,12 @@
 			exercitationem veritatis assumenda beatae odio mollitia
 		</p>
 		<img src="./images/arrow-1.png" alt="downward arrow" class="place-content-center mt-12" />
-		<a href="#collection" class="text-kartuli-peach mt-2">view collection</a>
+		<a href="#collection" class="text-kartuli-peach mt-2 scroll-smooth">view collection</a>
 	</div>
 </section>
 <section class=" text-white" id="collection">
 	<h3
-		class="uppercase text-3xl font-basker leading-10 tracking-wider font-normal scroll-smooth text-kartuli-orange text-center mt-20"
+		class="uppercase text-3xl font-basker leading-10 tracking-wider font-normal  text-kartuli-orange text-center mt-20"
 	>
 		artisan <br /> collection
 	</h3>
@@ -38,9 +38,12 @@
 				fugit? Ipsam possimus eos esse dolores,
 			</p>
 			<a href="/learn-more" class="uppercase mt-8">learn more</a>
+			<picture>
+				<img src="./images/collection-horizontal.jpg" alt="" />
+			</picture>
 		</div>
 		<!-- 				Passion					 -->
-		<img src="./images/artisan-passion-blackbg.jpg" alt="artisan elite" />
+		<img src="./images/artisan-passion-smaller.jpg" alt="artisan elite" />
 		<div class=" col-span-2">
 			<h4 class="capitalize text-kartuli-orange text-2xl mb-5">passion</h4>
 			<p class="grid font-josefin text-base leading-6 font-light pr-20">
