@@ -6,7 +6,7 @@
 </script>
 
 <Nav />
-<section class="flex flex-col bg-copper-still bg-contain bg-right h-full bg-no-repeat text-white">
+<section class="flex flex-col bg-copper-still bg-cover bg-right h-full bg-no-repeat text-white">
 	<div class="grid justify-items-center w-1/3 ml-16 my-36 items-center text-center">
 		<h1 class="uppercase text-base text-kartuli-peach font-futura mb-4">our collections</h1>
 		<h2 class="uppercase text-3xl font-basker leading-8 ">artisan</h2>
