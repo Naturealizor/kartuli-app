@@ -8,24 +8,26 @@ module.exports = {
       },
       fontSize: {
         'tiny': '.5rem',
+        'reg': '.75rem',
       },
       fontFamily: {
-        'futura': ['Futura'],
-        'josefin': ['Josefin Sans'],
-        'basker': ['Baskerville'],
+        'futura': ['Futura Md BT Medium'],
+        'josefin': ['Josefin Sans Thin'],
+        'basker': ['Baskervville'],
       },
       colors: {
         'kartuli-orange': '#c88f34',
         'kartuli-peach': '#FFCF8F',
         
       },
-      backgroundImage: {
-        'kartuli-fig': "url('./images/homePage_Section2.jpg')",
-        'vineyard': "url(./images/vineyard.jpg);",
-        'vineyard-sm': "url(./images/vineyard-sm.jpg);",
-        'drink-collection': "url(./images/drink-with-bar.jpg)",
-        'copper-still': "url(./images/copper-still.jpg)"
-      }
+    },
+    backgroundImage: {
+      'kartuli-fig': "url('/images/homePage_Section2.jpg')",
+      'vineyard': "url('/images/vineyard-2.jpg')",
+      'vineyard-sm': "url('/images/vineyard-sm.jpg')",
+      'drink-collection': "url('/images/drink-with-bar.jpg')",
+      'copper-still': "url('/images/copper-still-sm.jpg')",
+      'premium-top': "url('/images/premium-top.jpg')"
     },
     variants: {
       display: ["group-hover"]

@@ -4,12 +4,14 @@
 	import SectionTwo from '$lib/description-section-right.svelte';
 	import Carousel from '$lib/productCarousel.svelte';
 	import Btm from './product-description-sectionbtm.svelte';
+
+	let drinkName = 'passion';
 </script>
 
 <Nav />
 <section class="sectionTop">
 	<div class="sectionContent">
-		<h1>passion</h1>
+		<h1>{drinkName}</h1>
 		<h2>product description</h2>
 		<p>
 			Chacha is far too more than other alcoholic drinks. Chacha for us is above all the other kinds
