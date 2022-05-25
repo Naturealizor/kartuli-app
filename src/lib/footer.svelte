@@ -1,7 +1,7 @@
 <footer class="flex-1">
 	<hr class="border-kartuli-orange border mt-8" />
 	<!--  -->
-	<div class="flex xl:grid justify-items-center items-center text-xs justify-around ">
+	<div class="flex xl:grid justify-items-center items-center text-sm justify-around ">
 		<img class=" col-span-2 ml-28 mt-8" src="./images/kartuli spirits 1.png" alt="Kartuli Logo" />
 		<!-- ft-main -->
 		<section class="flex flex-wrap py-5 px-7 " style="min-width: 12.5rem">
@@ -68,7 +68,7 @@
 		padding: 0;
 	}
 	a {
-		font-family: 'Futura';
+		font-family: 'Futura Md BT Medium';
 		font-style: normal;
 		font-weight: 500;
 		font-size: 12px;
@@ -85,12 +85,10 @@
 		grid-column: 9 / span 2;
 
 		h5 {
-			margin-top: 8%;
+			margin-top: 0.5rem;
 		}
-		a,
-		p {
-			margin-right: 0.5rem;
-			// margin-top: 0.5rem;
+		a {
+			margin: 0.5rem;
 			padding: 0;
 		}
 	}

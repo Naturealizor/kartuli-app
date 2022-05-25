@@ -77,7 +77,7 @@
 <style lang="scss">
 	.portfolioSelection {
 		background-color: white;
-		height: 500px;
+		height: 517px;
 		width: 100%;
 	}
 	.carouselWrapper {
@@ -85,7 +85,8 @@
 		height: 400px;
 		display: flex;
 		padding-bottom: 20px;
-		margin: 0 4%;
+		// padding-top: 2em;
+		margin: 3% 4%;
 		align-items: flex-end;
 		justify-content: space-evenly;
 		.prodCard {
