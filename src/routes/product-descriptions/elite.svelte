@@ -100,7 +100,7 @@
 	.sectionTwo {
 		display: grid;
 		grid-template-columns: 1fr 1.1fr;
-		background-image: url(./images/productDescription_Passion_Section2.png);
+		background-image: url(../images/productDescription_Passion_Section2.png);
 		width: 100%;
 		height: auto;
 		object-fit: cover;
@@ -115,12 +115,12 @@
 	}
 	.sectionTop {
 		display: flex;
-		background-image: url(./images/productDescription_Passion_TopSection.jpg);
+		background-image: url(../images/productDescription_Passion_TopSection.jpg);
 		width: 100%;
-		height: auto;
+		height: 626px;
 		object-fit: cover;
 		object-position: center center;
-		background-size: cover;
+		background-size: contain;
 		background-repeat: no-repeat;
 		background-attachment: scroll;
 	}

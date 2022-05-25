@@ -1,14 +1,14 @@
 <header>
 	<nav>
-		<hr class="border-kartuli-orange border mt-8" />
+		<hr class="border-kartuli-orange  mt-8" />
 		<div class="grid grid-cols-6 justify-items-center items-center w-99">
 			<picture class="col-start-1 col-span-2">
-				<a href="/"><img src="./images/kartuli spirits 1.png" alt="Kartuli Logo" /></a>
+				<a href="/"><img src="../images/kartuli spirits 1.png" alt="Kartuli Logo" /></a>
 			</picture>
 			<picture class="col-start-3 col-span-2">
 				<img
 					class=" scale-125 rounded-full border-8 border-black"
-					src="./images/crest_2.png"
+					src="../images/crest_2.png"
 					alt="Georgia Crest"
 				/>
 			</picture>
@@ -18,7 +18,7 @@
 						<li>
 							<a
 								class="font-futura no-underline text-white px-5 xl:px-3 lg:px-1.5 md:px-.75 uppercase tracking-wider font-medium not-italic text-reg items-center"
-								href="./about-us">about</a
+								href="../about-us">about</a
 							>
 						</li>
 					</div>
@@ -26,7 +26,7 @@
 						<li>
 							<a
 								class="font-futura no-underline text-white px-5 lap:px-4 xl:px-3 md-b:px-2 lg:px-1.5 md:px-.75 uppercase tracking-wider font-medium not-italic text-reg items-center"
-								href="./news">news</a
+								href="../news">news</a
 							>
 						</li>
 					</div>
@@ -39,35 +39,35 @@
 							portfolio</a
 						>
 						<div class="dropdown-content">
-							<a href="/artisan">artisan</a>
-							<a href="/premium">premium</a>
-							<a href="/flavored">flavored</a>
-							<a href="/international">international</a>
-							<a href="/brandy">brandy</a>
-							<a href="/liqueurs">liqueurs</a>
+							<a href="../portfolio/artisan">artisan</a>
+							<a href="../portfolio/premium">premium</a>
+							<a href="../portfolio/flavored">flavored</a>
+							<a href="../portfolio/international">international</a>
+							<a href="../portfolio/brandy">brandy</a>
+							<a href="../portfolio/liqueurs">liqueurs</a>
 						</div>
 					</div>
 					<div>
 						<li>
 							<a
 								class="font-futura no-underline text-white px-5 lap:px-4 xl:px-3 lg:px-1.5 md:px-.75 pt-2 uppercase tracking-wider font-medium not-italic text-reg items-center"
-								href="./shop">shop</a
+								href="../portfolio/shop">shop</a
 							>
 						</li>
 					</div>
 					<div>
 						<li class="flex">
-							<img class=" my-2 pl-2 pr-1" src="./images/shopping-cart 1.png" alt="cart icon" />
+							<img class=" my-2 pl-2 pr-1" src="../images/shopping-cart 1.png" alt="cart icon" />
 							<a
 								class="font-futura no-underline text-white pt-1 uppercase tracking-wider font-medium not-italic text-reg items-center mt-1"
-								href="./cart">cart</a
+								href="../portfolio/cart">cart</a
 							>
 						</li>
 					</div>
 				</ul>
 			</div>
 		</div>
-		<hr class="border-kartuli-orange border mb-2" />
+		<hr class="border-kartuli-orange  mb-2" />
 	</nav>
 </header>
 

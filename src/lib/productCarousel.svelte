@@ -9,37 +9,42 @@
 	<h2 class="centeredSectionTitle">portfolio selections</h2>
 	<div class="carouselWrapper">
 		<div class="prodCard">
-			<img class="prodImg" src="./images/elite_2.png" alt="Artisan" />
+			<img class="prodImg" src="../images/elite_2.png" alt="Artisan" />
 			<div class="prodDescription">
 				<h4>Artisan</h4>
 			</div>
 		</div>
 		<div class="prodCard">
-			<img class="prodImg" src="./images/KARTULI_RESERVE.png" alt="Artisan" />
+			<img class="prodImg" src="../images/KARTULI_RESERVE.png" alt="Artisan" />
 			<div class="prodDescription">
 				<h4 style="padding-left: 10px;">Premium</h4>
 			</div>
 		</div>
 		<div class="prodCard">
-			<img class="prodImg" src="./images/vodka plain bottle 2 2.png" alt="Artisan" />
+			<img class="prodImg" src="../images/vodka plain bottle 2 2.png" alt="Artisan" />
 			<div class="prodDescription">
 				<h4>Flavored</h4>
 			</div>
 		</div>
 		<div class="prodCard">
-			<img style="padding-left: 10px;" class="prodImg" src="./images/Frame_860.png" alt="Artisan" />
+			<img
+				style="padding-left: 10px;"
+				class="prodImg"
+				src="../images/Frame_860.png"
+				alt="Artisan"
+			/>
 			<div class="prodDescription">
 				<h4>International</h4>
 			</div>
 		</div>
 		<div class="prodCard">
-			<img class="prodImg" src="./images/Group 672.png" alt="Artisan" />
+			<img class="prodImg" src="../images/Group 672.png" alt="Artisan" />
 			<div class="prodDescription">
 				<h4 style="padding-left: 25px;">Brandy</h4>
 			</div>
 		</div>
 		<div class="prodCard">
-			<img class="prodImg" src="./images/Frame 860-1.png" alt="Artisan" />
+			<img class="prodImg" src="../images/Frame 860-1.png" alt="Artisan" />
 			<div class="prodDescription">
 				<h4 style="padding-left: 10px;">Liqueurs</h4>
 			</div>

@@ -6,7 +6,7 @@
 </script>
 
 <Nav />
-<section class="flex bg-premium-top bg-right h-580px bg-no-repeat text-white">
+<section class="flex bg-copper-still bg-right h-580px bg-no-repeat text-white">
 	<div class="grid justify-items-center w-1/3 ml-16 my-12 items-center text-center">
 		<h1 class="uppercase text-sm text-kartuli-peach font-futura mb-4">our collections</h1>
 		<h2 class="uppercase text-2xl font-basker leading-8 ">artisan</h2>
@@ -17,7 +17,7 @@
 			veritatis assumenda beatae odio mollitia sequi, qui temporibus. omnis cum possimus, in iste
 			exercitationem veritatis assumenda beatae odio mollitia
 		</p>
-		<img src="./images/arrow-1.png" alt="downward arrow" class="place-content-center mt-8" />
+		<img src="../images/arrow-1.png" alt="downward arrow" class="place-content-center mt-8" />
 		<a href="#collection" class="text-kartuli-peach mt-2 scroll-smooth">view collection</a>
 	</div>
 </section>
@@ -27,22 +27,22 @@
 	>
 		artisan <br /> collection
 	</h3>
-	<!-- 				Reserve				 -->
+	<!-- 				Elite				 -->
 	<div class="grid grid-cols-6 ml-14 mt-28  items-center justify-items-center">
-		<img src="./images/premium-reserve.jpg" alt="premium reserve" />
+		<img src="../images/artisan-elite2.jpg" alt="artisan elite" />
 		<div class=" col-span-2 mt-20">
-			<h4 class="font-basker capitalize text-kartuli-orange text-xl mb-5">reserve</h4>
+			<h4 class="font-basker capitalize text-kartuli-orange text-xl mb-5">elite</h4>
 			<p class="grid font-josefin text-sm leading-6 font-light pr-4 pb-8">
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, fugit? Ipsam possimus
 				eos esse dolores, Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio,
 				fugit? Ipsam possimus eos esse dolores,
 			</p>
-			<a href="/learn-more" class="uppercase underline text-tiny">learn more</a>
+			<a href="/product-descriptions/elite" class="uppercase underline text-tiny">learn more</a>
 		</div>
-		<!-- 				Ultra					 -->
-		<img src="./images/premium-ultra.jpg" alt="premium ultra" />
+		<!-- 				Passion					 -->
+		<img src="../images/artisan-passion-blackbg.jpg" alt="artisan passion" />
 		<div class=" col-span-2 mt-20">
-			<h4 class="font-basker capitalize text-kartuli-orange text-xl mb-5">ultra</h4>
+			<h4 class="font-basker capitalize text-kartuli-orange text-xl mb-5">passion</h4>
 			<p class="grid font-josefin text-sm leading-6 font-light pr-4 pb-8">
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, fugit? Ipsam possimus
 				eos esse dolores, Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio,
@@ -51,11 +51,11 @@
 			<a href="/learn-more" class="uppercase underline text-tiny">learn more</a>
 		</div>
 	</div>
-	<!-- 					Heritage				 -->
+	<!-- 					Niight Vibes				 -->
 	<div class="grid grid-cols-6 ml-14 mt-28  items-center justify-items-center">
-		<img src="./images/premium-heritage.jpg" alt="premium heritage" />
+		<img src="../images/artisan-night2.jpg" alt="artisan night vibes" />
 		<div class=" col-span-2 mt-20">
-			<h4 class="font-basker capitalize text-kartuli-orange text-xl mb-5">heritage</h4>
+			<h4 class="font-basker capitalize text-kartuli-orange text-xl mb-5">night vibes</h4>
 			<p class="grid font-josefin text-sm leading-6 font-light pr-4 pb-8">
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, fugit? Ipsam possimus
 				eos esse dolores, Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio,
@@ -64,19 +64,8 @@
 			<a href="/learn-more" class="uppercase underline text-tiny">learn more</a>
 		</div>
 
-		<!-- 					Tbilisi					 -->
-		<img src="./images/premium-tbilisi.jpg" alt="premium tbilisi" />
-		<div class=" col-span-2 mt-20">
-			<h4 class="font-basker capitalize text-kartuli-orange text-xl mb-5">tbilisi</h4>
-			<p class="grid font-josefin text-sm leading-6 font-light pr-4 pb-8">
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, fugit? Ipsam possimus
-				eos esse dolores, Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio,
-				fugit? Ipsam possimus eos esse dolores,
-			</p>
-			<a href="/learn-more" class="uppercase underline text-tiny">learn more</a>
-		</div>
-		<!-- 					Executive					 -->
-		<img src="./images/artisan-silk.jpg" alt="artisan silk" />
+		<!-- 					Silk					 -->
+		<img src="../images/artisan-silk.jpg" alt="artisan silk" />
 		<div class=" col-span-2 mt-20">
 			<h4 class="font-basker capitalize text-kartuli-orange text-xl mb-5">silk</h4>
 			<p class="grid font-josefin text-sm leading-6 font-light pr-4 pb-8">
