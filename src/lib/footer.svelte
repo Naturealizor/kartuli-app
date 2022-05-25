@@ -28,10 +28,10 @@
 						<a href="./media-kit" class="text-white ">media kit</a>
 					</li>
 					<li>
-						<a href="/distribution" class="text-white">distribution</a>
+						<a href="#" class="text-white">distribution</a>
 					</li>
 					<li>
-						<a href="/legal" class="text-white">legal</a>
+						<a href="#" class="text-white">legal</a>
 					</li>
 				</ul>
 			</div>
@@ -48,12 +48,12 @@
 				<a href="#"><img src="./images/linkedin.png" alt="linkedin" /></a>
 			</div>
 			<div class="flex">
-				<a href="/drink-responsibly"
+				<a href=""
 					><p class="capitalize font-futura text-kartuli-orange text-tiny">
 						please drink responsibly
 					</p></a
 				>
-				<a href="/site-map"
+				<a href="./site-map"
 					><p class="capitalize font-futura text-kartuli-orange text-tiny">site map</p></a
 				>
 			</div>
