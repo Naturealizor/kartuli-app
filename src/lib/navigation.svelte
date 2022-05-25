@@ -2,12 +2,12 @@
 	<nav>
 		<hr class="border-kartuli-orange  mt-8" />
 		<div class="grid grid-cols-6 justify-items-center items-center w-99">
-			<picture class="col-start-1 col-span-2">
+			<picture class="col-start-1 col-span-2 mb-4">
 				<a href="/"><img src="../images/kartuli spirits 1.png" alt="Kartuli Logo" /></a>
 			</picture>
 			<picture class="col-start-3 col-span-2">
 				<img
-					class=" scale-125 rounded-full border-8 border-black"
+					class=" scale-125 rounded-full border-15 border-black"
 					src="../images/crest_2.png"
 					alt="Georgia Crest"
 				/>

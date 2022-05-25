@@ -116,7 +116,7 @@
 	.sectionTop {
 		display: flex;
 		background-image: url(../images/productDescription_Passion_TopSection.jpg);
-		width: 100%;
+		/* width: 100%; */
 		height: 626px;
 		object-fit: cover;
 		object-position: center center;

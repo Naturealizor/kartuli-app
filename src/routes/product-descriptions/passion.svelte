@@ -3,7 +3,7 @@
 	import Footer from '$lib/footer.svelte';
 	import SectionTwo from '$lib/description-section-right.svelte';
 	import Carousel from '$lib/productCarousel.svelte';
-	import Btm from './product-description-sectionbtm.svelte';
+	import Btm from '$lib/product-description-sectionbtm.svelte';
 
 	let drinkName = 'passion';
 </script>
