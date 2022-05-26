@@ -2,18 +2,35 @@
 	import Icon from 'svelte-awesome';
 	import chevronLeft from 'svelte-awesome/icons/chevronLeft';
 	import chevronRight from 'svelte-awesome/icons/chevronRight';
+	import { onMount } from 'svelte';
+
+	let Carousel; //for saving Carousel component class
+	let carousel; // let carousel; for calling methods of the carousel instance
+	onMount(async () => {
+		const module = await import('svelte-carousel');
+		Carousel = module.default;
+	});
+
+	const handleNextClick = () => {
+		carousel.goToNext();
+	};
+
+	const handlePrevClick = () => {
+		carousel.goToPrev();
+	};
 </script>
 
-<!-- Each card needs to have an anchor for the navigation -->
-<section class="portfolioSelection">
+<div class="bg-white pl-6 ">
 	<h2 class="centeredSectionTitle">portfolio selections</h2>
-	<div class="carouselWrapper">
+
+	<svelte:component this={Carousel} bind:this={carousel} particlesToShow={4} particlesToScroll={1}>
 		<div class="prodCard">
 			<img class="prodImg" src="../images/elite_2.png" alt="Artisan" />
 			<div class="prodDescription">
 				<h4>Artisan</h4>
 			</div>
 		</div>
+
 		<div class="prodCard">
 			<img class="prodImg" src="../images/KARTULI_RESERVE.png" alt="Artisan" />
 			<div class="prodDescription">
@@ -49,55 +66,16 @@
 				<h4 style="padding-left: 10px;">Liqueurs</h4>
 			</div>
 		</div>
-	</div>
-	<Icon
-		data={chevronLeft}
-		style="
-		min-width: 50px;
-		color: black;
-		border: none;
-		font-weight: 600;
-		text-align: center;
-		cursor: pointer;
-		outline: none;
-		position: absolute;
-		left: 0;
-		"
-	/>
-	<Icon
-		data={chevronRight}
-		style="margin-top: 5px;
-		min-width: 50px;
-		color: black;
-		border: none;
-		font-weight: 600;
-		text-align: center;
-		cursor: pointer;
-		outline: none;
-		position: absolute;
-		right: 0;"
-	/>
-</section>
+	</svelte:component>
+
+	<button on:click={handlePrevClick}>back</button>
+	<button on:click={handleNextClick}>next</button>
+</div>
 
 <style lang="scss">
-	.portfolioSelection {
-		background-color: white;
-		height: 517px;
-		width: 100%;
-	}
-	.carouselWrapper {
-		width: 95%;
-		height: 400px;
-		display: flex;
-		padding-bottom: 20px;
-		// padding-top: 2em;
-		margin: 3% 4%;
-		align-items: flex-end;
-		justify-content: space-evenly;
-		.prodCard {
-			width: 12%;
-			padding-bottom: 2em;
-		}
+	.prodCard {
+		width: 12%;
+		padding-bottom: 3em;
 	}
 
 	.prodDescription {
@@ -113,7 +91,7 @@
 	}
 
 	.prodCard:hover {
-		transform: scale(1.2);
+		transform: scale(1.1);
 	}
 	.centeredSectionTitle {
 		text-align: center;

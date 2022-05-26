@@ -48,12 +48,12 @@
 				<a href="/"><img src="../images/linkedin.png" alt="linkedin" /></a>
 			</div>
 			<div class="flex">
-				<a href="/"
+				<a href="/drink-responsibly"
 					><p class="capitalize font-futura text-kartuli-orange text-tiny">
 						please drink responsibly
 					</p></a
 				>
-				<a href="./site-map"
+				<a href="/sitemap"
 					><p class="capitalize font-futura text-kartuli-orange text-tiny">site map</p></a
 				>
 			</div>

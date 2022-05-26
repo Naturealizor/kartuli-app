@@ -9,7 +9,7 @@
 <section class="flex bg-premium-top bg-right h-580px bg-no-repeat text-white">
 	<div class="grid justify-items-center w-1/3 ml-16 my-12 items-center text-center">
 		<h1 class="uppercase text-sm text-kartuli-peach font-futura mb-4">our collections</h1>
-		<h2 class="uppercase text-2xl font-basker leading-8 ">artisan</h2>
+		<h2 class="uppercase text-2xl font-basker leading-8 ">premium</h2>
 		<p class="mt-7 font-josefin text-sm leading-6 font-light">
 			Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente quasi odit perferendis
 			laboriosam ad ducimus minus, omnis cum possimus, in iste exercitationem veritatis assumenda
