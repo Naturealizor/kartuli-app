@@ -1,6 +1,6 @@
 <header>
 	<nav>
-		<hr class="border-kartuli-orange  mt-8" />
+		<hr class="border-kartuli-orange  mt-6" />
 		<div class="grid grid-cols-6 justify-items-center items-center w-99">
 			<picture class="col-start-1 col-span-2 mb-4">
 				<a href="/"><img src="../images/kartuli spirits 1.png" alt="Kartuli Logo" /></a>
@@ -18,7 +18,7 @@
 						<li>
 							<a
 								class="font-futura no-underline text-white px-5 xl:px-3 lg:px-1.5 md:px-.75 uppercase tracking-wider font-medium not-italic text-reg items-center"
-								href="../about-us">about</a
+								href="../about">about</a
 							>
 						</li>
 					</div>
@@ -67,7 +67,7 @@
 				</ul>
 			</div>
 		</div>
-		<hr class="border-kartuli-orange  mb-2" />
+		<hr class="border-kartuli-orange  mb-0" />
 	</nav>
 </header>
 

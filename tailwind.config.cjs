@@ -12,7 +12,8 @@ module.exports = {
       },
       fontFamily: {
         'futura': ['Futura Md BT Medium'],
-        'josefin': ['Josefin Sans Thin'],
+        'josefin': ['Josefin Sans Medium'],
+        'josefin-lite': ['Josefin Sans Light'],
         'basker': ['Baskervville'],
       },
       colors: {

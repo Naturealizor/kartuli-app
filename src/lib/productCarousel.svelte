@@ -20,74 +20,80 @@
 	};
 </script>
 
-<div class="bg-white pl-6 ">
+<div class="bg-white px-16 items-end;">
 	<h2 class="centeredSectionTitle">portfolio selections</h2>
 
-	<svelte:component this={Carousel} bind:this={carousel} particlesToShow={4} particlesToScroll={1}>
-		<div class="prodCard">
-			<img class="prodImg" src="../images/elite_2.png" alt="Artisan" />
-			<div class="prodDescription">
-				<h4>Artisan</h4>
+	<div class="flex">
+		<svelte:component
+			this={Carousel}
+			bind:this={carousel}
+			particlesToShow={5}
+			particlesToScroll={1}
+		>
+			<div class="prodCard" style="padding-left: 25px;">
+				<img class="prodImg" src="../images/carouselArtisan.png" alt="Artisan" />
+				<div class="prodDescription">
+					<h4>Artisan</h4>
+				</div>
 			</div>
-		</div>
 
-		<div class="prodCard">
-			<img class="prodImg" src="../images/KARTULI_RESERVE.png" alt="Artisan" />
-			<div class="prodDescription">
-				<h4 style="padding-left: 10px;">Premium</h4>
+			<div class="prodCard" style="align-self: end;">
+				<img class="prodImg" src="../images/KARTULI_RESERVE.png" alt="Artisan" />
+				<div class="prodDescription">
+					<h4>Premium</h4>
+				</div>
 			</div>
-		</div>
-		<div class="prodCard">
-			<img class="prodImg" src="../images/vodka plain bottle 2 2.png" alt="Artisan" />
-			<div class="prodDescription">
-				<h4>Flavored</h4>
+			<div class="prodCard" style="align-self: end;">
+				<img class="prodImg" src="../images/vodka plain bottle 2 2.png" alt="Artisan" />
+				<div class="prodDescription">
+					<h4>Flavored</h4>
+				</div>
 			</div>
-		</div>
-		<div class="prodCard">
-			<img
-				style="padding-left: 10px;"
-				class="prodImg"
-				src="../images/Frame_860.png"
-				alt="Artisan"
-			/>
-			<div class="prodDescription">
-				<h4>International</h4>
+			<div class="prodCard" style="align-self: end;">
+				<img class="prodImg" src="../images/Frame_860.png" alt="Artisan" />
+				<div class="prodDescription">
+					<h4>International</h4>
+				</div>
 			</div>
-		</div>
-		<div class="prodCard">
-			<img class="prodImg" src="../images/Group 672.png" alt="Artisan" />
-			<div class="prodDescription">
-				<h4 style="padding-left: 25px;">Brandy</h4>
+			<div class="prodCard" style="align-self: end;">
+				<img class="prodImg" src="../images/Group 672.png" alt="Artisan" />
+				<div class="prodDescription">
+					<h4>Brandy</h4>
+				</div>
 			</div>
-		</div>
-		<div class="prodCard">
-			<img class="prodImg" src="../images/Frame 860-1.png" alt="Artisan" />
-			<div class="prodDescription">
-				<h4 style="padding-left: 10px;">Liqueurs</h4>
+			<div class="prodCard" style="align-self: end;">
+				<img class="prodImg" src="../images/Frame 860-1.png" alt="Artisan" />
+				<div class="prodDescription">
+					<h4>Liqueurs</h4>
+				</div>
 			</div>
-		</div>
-	</svelte:component>
+		</svelte:component>
 
-	<button on:click={handlePrevClick}>back</button>
-	<button on:click={handleNextClick}>next</button>
+		<button on:click={handlePrevClick} />
+		<button on:click={handleNextClick} />
+	</div>
 </div>
 
 <style lang="scss">
 	.prodCard {
-		width: 12%;
 		padding-bottom: 3em;
+	}
+
+	.prodImg {
+		margin: 0 auto;
 	}
 
 	.prodDescription {
 		font-family: 'Futura';
 		font-style: normal;
 		font-weight: 500;
-		font-size: 14.542px;
+		font-size: 14px;
 		line-height: 19px;
-		text-align: start;
+		text-align: center;
 		letter-spacing: 0.05em;
 		text-transform: uppercase;
 		color: #c88f34;
+		padding-top: 1rem;
 	}
 
 	.prodCard:hover {

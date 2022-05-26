@@ -3,6 +3,10 @@
 	import Footer from '$lib/footer.svelte';
 	import Carousel from '$lib/productCarousel.svelte';
 	import { fade, fly } from 'svelte/transition';
+
+	function redirect() {
+		window.location.href = 'portfolio/artisan';
+	}
 </script>
 
 <svelte:head>
@@ -54,9 +58,7 @@
 	<section class="section-3">
 		<div class="flex flex-col items-center ">
 			<h2 class="centeredSectionTitle">innovative georgian craftsmanship</h2>
-			<p
-				class="font-josefin text-xl font-light leading-7 text-white text-center w-2/5 mx-auto mt-8"
-			>
+			<p class="font-josefin-lite text-2xl  leading-7 text-black text-center w-2/5 mx-auto mt-8">
 				Kartuli Vodka is a luxurious ultra-premium vodka made from fine Georgian grapes to be the
 				toast of modern luxury.
 			</p>
@@ -83,13 +85,14 @@
 			<div class=" bg-kartuli-orange grid-cols-3 grid-rows-2 relative">
 				<img class="" src="./images/drink-collection-text.jpg" alt="rum and coke" />
 				<h3
-					class="capitalize font-basker text-white text-3xl  xl:text-2xl lg:text-base absolute bottom-5 xl:bottom-1 left-4 z-20"
+					class="flex capitalize font-basker text-white text-2xl  xl:text-xl lg:text-base absolute bottom-5 xl:bottom-1 left-4 z-20"
 				>
 					kartuli drink collection
 				</h3>
 				<!-- xl:bottom-2   xl:py-2 xl:px-3 -->
 				<button
-					class="absolute right-6 xl:right-4  bottom-4 border py-3 font-futura text-sm uppercase border-black"
+					on:click={redirect}
+					class="absolute right-6 xl:right-4  bottom-4 border py-3 font-futura text-tiny uppercase border-black"
 					>drink recipies</button
 				>
 			</div>
@@ -104,7 +107,6 @@
 	}
 
 	.section-1 {
-		// class="bg-kartuli-fig bg-cover bg-fixed md:bg-scroll bg-no-repeat md:bg-cover h-517px bg-center"
 		background-image: url(/images/homePage_Section2.jpg);
 		background-attachment: fixed;
 		background-repeat: no-repeat;
@@ -124,7 +126,7 @@
 	.centeredSectionTitle {
 		text-align: center;
 		color: #c88f34;
-		margin-top: 5%;
+		margin-top: 3%;
 		text-transform: uppercase;
 		font-family: 'Baskerville';
 		font-style: normal;
