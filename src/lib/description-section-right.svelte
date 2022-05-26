@@ -19,7 +19,6 @@
 
 <style>
 	h2 {
-	
 		font-family: 'Baskerville';
 		font-style: normal;
 		font-weight: 400;
@@ -28,7 +27,6 @@
 		letter-spacing: 0.35em;
 		text-transform: uppercase;
 		color: #c88f34;
-	
 	}
 	h3,
 	h4 {
@@ -42,7 +40,7 @@
 		margin-top: 6em;
 		color: #c88f34;
 	}
-	
+
 	h4 {
 		letter-spacing: 0.05em;
 		font-size: 16px;
@@ -63,7 +61,7 @@
 	.sectionTwo {
 		display: grid;
 		grid-template-columns: 1fr 1.1fr;
-		background-image: url(./images/productDescription_Passion_Section2.png);
+		background-image: url(../images/productDescription_Passion_Section2.png);
 		width: 100%;
 		height: auto;
 		object-fit: cover;

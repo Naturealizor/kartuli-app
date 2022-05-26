@@ -17,7 +17,7 @@
 			veritatis assumenda beatae odio mollitia sequi, qui temporibus. omnis cum possimus, in iste
 			exercitationem veritatis assumenda beatae odio mollitia
 		</p>
-		<img src="./images/arrow-1.png" alt="downward arrow" class="place-content-center mt-8" />
+		<img src="../images/arrow-1.png" alt="downward arrow" class="place-content-center mt-8" />
 		<a href="#collection" class="text-kartuli-peach mt-2 scroll-smooth">view collection</a>
 	</div>
 </section>
@@ -29,7 +29,7 @@
 	</h3>
 	<!-- 				Elite				 -->
 	<div class="grid grid-cols-6 ml-14 mt-28  items-center justify-items-center">
-		<img src="./images/artisan-elite2.jpg" alt="artisan elite" />
+		<img src="../images/artisan-elite2.jpg" alt="artisan elite" />
 		<div class=" col-span-2 mt-20">
 			<h4 class="font-basker capitalize text-kartuli-orange text-xl mb-5">elite</h4>
 			<p class="grid font-josefin text-sm leading-6 font-light pr-4 pb-8">
@@ -37,10 +37,10 @@
 				eos esse dolores, Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio,
 				fugit? Ipsam possimus eos esse dolores,
 			</p>
-			<a href="/learn-more" class="uppercase underline text-tiny">learn more</a>
+			<a href="/product-descriptions/elite" class="uppercase underline text-tiny">learn more</a>
 		</div>
 		<!-- 				Passion					 -->
-		<img src="./images/artisan-passion-blackbg.jpg" alt="artisan passion" />
+		<img src="../images/artisan-passion-blackbg.jpg" alt="artisan passion" />
 		<div class=" col-span-2 mt-20">
 			<h4 class="font-basker capitalize text-kartuli-orange text-xl mb-5">passion</h4>
 			<p class="grid font-josefin text-sm leading-6 font-light pr-4 pb-8">
@@ -53,7 +53,7 @@
 	</div>
 	<!-- 					Niight Vibes				 -->
 	<div class="grid grid-cols-6 ml-14 mt-28  items-center justify-items-center">
-		<img src="./images/artisan-night2.jpg" alt="artisan night vibes" />
+		<img src="../images/artisan-night2.jpg" alt="artisan night vibes" />
 		<div class=" col-span-2 mt-20">
 			<h4 class="font-basker capitalize text-kartuli-orange text-xl mb-5">night vibes</h4>
 			<p class="grid font-josefin text-sm leading-6 font-light pr-4 pb-8">
@@ -65,7 +65,7 @@
 		</div>
 
 		<!-- 					Silk					 -->
-		<img src="./images/artisan-silk.jpg" alt="artisan silk" />
+		<img src="../images/artisan-silk.jpg" alt="artisan silk" />
 		<div class=" col-span-2 mt-20">
 			<h4 class="font-basker capitalize text-kartuli-orange text-xl mb-5">silk</h4>
 			<p class="grid font-josefin text-sm leading-6 font-light pr-4 pb-8">

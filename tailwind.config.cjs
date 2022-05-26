@@ -12,7 +12,8 @@ module.exports = {
       },
       fontFamily: {
         'futura': ['Futura Md BT Medium'],
-        'josefin': ['Josefin Sans Thin'],
+        'josefin': ['Josefin Sans Medium'],
+        'josefin-lite': ['Josefin Sans Light'],
         'basker': ['Baskervville'],
       },
       colors: {
@@ -27,7 +28,8 @@ module.exports = {
       'vineyard-sm': "url('/images/vineyard-sm.jpg')",
       'drink-collection': "url('/images/drink-with-bar.jpg')",
       'copper-still': "url('/images/copper-still-sm.jpg')",
-      'premium-top': "url('/images/premium-top.jpg')"
+      'premium-top': "url('/images/premium-top.jpg')",
+      'flavored-top': "url('/images/flavored-top.jpg')",
     },
     variants: {
       display: ["group-hover"]

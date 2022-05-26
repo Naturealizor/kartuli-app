@@ -2,7 +2,7 @@
 	<hr class="border-kartuli-orange border mt-8" />
 	<!--  -->
 	<div class="flex xl:grid justify-items-center items-center text-sm justify-around ">
-		<img class=" col-span-2 ml-28 mt-8" src="./images/kartuli spirits 1.png" alt="Kartuli Logo" />
+		<img class=" col-span-2 ml-28 mt-8" src="../images/kartuli spirits 1.png" alt="Kartuli Logo" />
 		<!-- ft-main -->
 		<section class="flex flex-wrap py-5 px-7 " style="min-width: 12.5rem">
 			<!-- ft-main-item -->
@@ -10,28 +10,28 @@
 				<!-- ft-title -->
 				<ul class="flex list-none mb-0 text-center">
 					<li>
-						<a href="./team" class="text-white">team</a>
+						<a href="../team" class="text-white">team</a>
 					</li>
 					<li>
-						<a href="./distillery" class="text-white">distillery</a>
+						<a href="../distillery" class="text-white">distillery</a>
 					</li>
 					<li class="text-end">
-						<a href="./kartuli-club" class="text-white ">kartuli club</a>
+						<a href="../kartuli-club" class="text-white ">kartuli club</a>
 					</li>
 					<li>
-						<a href="./ambassadors" class="text-white">ambassadors</a>
+						<a href="../ambassadors" class="text-white">ambassadors</a>
 					</li>
 					<li>
-						<a href="./press" class="text-white">press</a>
+						<a href="../press" class="text-white">press</a>
 					</li>
 					<li class="text-end">
-						<a href="./media-kit" class="text-white ">media kit</a>
+						<a href="../media-kit" class="text-white ">media kit</a>
 					</li>
 					<li>
-						<a href="#" class="text-white">distribution</a>
+						<a href="../distribution" class="text-white">distribution</a>
 					</li>
 					<li>
-						<a href="#" class="text-white">legal</a>
+						<a href="../legal" class="text-white">legal</a>
 					</li>
 				</ul>
 			</div>
@@ -43,17 +43,17 @@
 				social media
 			</h5>
 			<div class="flex m-0 p-0 mx-8 my-4 justify-center">
-				<a href="#"><img src="./images/facebook.png" alt="facebook" /></a>
-				<a href="#"><img src="./images/instagram.png" alt="instagram" /></a>
-				<a href="#"><img src="./images/linkedin.png" alt="linkedin" /></a>
+				<a href="/"><img src="../images/facebook.png" alt="facebook" /></a>
+				<a href="/"><img src="../images/instagram.png" alt="instagram" /></a>
+				<a href="/"><img src="../images/linkedin.png" alt="linkedin" /></a>
 			</div>
 			<div class="flex">
-				<a href=""
+				<a href="/drink-responsibly"
 					><p class="capitalize font-futura text-kartuli-orange text-tiny">
 						please drink responsibly
 					</p></a
 				>
-				<a href="./site-map"
+				<a href="/sitemap"
 					><p class="capitalize font-futura text-kartuli-orange text-tiny">site map</p></a
 				>
 			</div>

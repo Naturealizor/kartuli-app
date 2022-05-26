@@ -1,9 +1,6 @@
-
-
 <section>
 	<div class="sectionContent">
 		<div class="contentWrapper">
-
 			<h3>create excitment at home</h3>
 			<h2>mixed drinks</h2>
 		</div>
@@ -26,11 +23,11 @@
 		margin-top: 3em;
 		color: #c88f34;
 	}
-    .sectionContent {
+	.sectionContent {
 		display: grid;
 		grid-template-columns: 2fr 1fr;
 		grid-template-rows: 1fr 1.5fr;
-		background-image: url(./images/productDescription_BtmSection.jpg);
+		background-image: url(../images/productDescription_BtmSection.jpg);
 		margin: 5em 8em;
 		width: 80vw;
 		object-fit: cover;
