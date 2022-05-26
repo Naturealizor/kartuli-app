@@ -24,7 +24,7 @@
 		<h1 class="text-kartuli-orange uppercase text-center text-4xl my-5 mx-auto font-basker">
 			introduction to kartuli
 		</h1>
-		<p class="text-white my-4">watch video</p>
+		<p class="text-white my-4 pr-2">watch video</p>
 		<a href="/" class="pr-8 py-4"><img src="../images/about-watch-btn.png" alt="play button" /></a>
 	</div>
 	<!-- 			2				 -->
