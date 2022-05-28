@@ -1,7 +1,6 @@
 <script>
 	import Nav from '$lib/navigation.svelte';
 	import Footer from '$lib/footer.svelte';
-	import SectionTwo from '$lib/description-section-right.svelte';
 	import Carousel from '$lib/productCarousel.svelte';
 </script>
 
@@ -116,17 +115,17 @@
 	.sectionTop {
 		display: flex;
 		background-image: url(../images/productDescription_Passion_TopSection.jpg);
-		/* width: 100%; */
+		width: 100%;
 		height: 626px;
 		object-fit: cover;
 		object-position: center center;
-		background-size: contain;
+		background-size: cover;
 		background-repeat: no-repeat;
 		background-attachment: scroll;
 	}
 
 	.sectionContent {
-		margin: 8em 8em;
+		margin: 3em 8em;
 		width: 40vw;
 	}
 	.abvInfo-Wrapper {
