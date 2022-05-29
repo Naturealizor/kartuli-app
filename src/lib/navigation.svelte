@@ -1,39 +1,42 @@
 <header>
 	<nav>
-		<hr class="border-kartuli-orange  mt-6" />
-		<div class="grid grid-cols-6 justify-items-center items-center w-99">
-			<picture class="col-start-1 col-span-2 mb-4">
+		<hr class="border-kartuli-orange  mt-0 md-min:mt-6" />
+		<div class="grid grid-cols-6 md-min:grid-cols-8 justify-items-center items-center w-99 pr-0 ">
+			<picture class="col-start-1 col-span-2 mb-4 md-min:col-span-3">
 				<a href="/"><img src="../images/kartuli spirits 1.png" alt="Kartuli Logo" /></a>
 			</picture>
-			<picture class="col-start-3 col-span-2">
+			<picture class="col-start-3 col-span-2 md-min:col-start-4">
 				<img
 					class=" scale-125 rounded-full border-15 border-black"
 					src="../images/crest_2.png"
 					alt="Georgia Crest"
 				/>
 			</picture>
-			<div class=" col-start-5 ml-14">
-				<ul class="flex items-center">
-					<div>
-						<li>
-							<a
-								class="font-futura no-underline text-white px-5 xl:px-3 lg:px-1.5 md:px-.75 uppercase tracking-wider font-medium not-italic text-reg items-center"
-								href="../about">about</a
-							>
-						</li>
-					</div>
-					<div>
-						<li>
-							<a
-								class="font-futura no-underline text-white px-5 lap:px-4 xl:px-3 md-b:px-2 lg:px-1.5 md:px-.75 uppercase tracking-wider font-medium not-italic text-reg items-center"
-								href="../news">news</a
-							>
-						</li>
-					</div>
+			<!-- mx-14 max-w-fit -->
+			<div class="col-start-5 col-span-2 md-min:col-span-3 md-min:pr-4 ">
+				<ul
+					class="grid items-center sm-min:grid-cols-2 sm-min:gap-3 md-min:grid-cols-3 lg-min:flex"
+				>
+					<!-- <div> -->
+					<li>
+						<a
+							class="font-futura no-underline text-white px-3  uppercase tracking-wider font-medium not-italic text-reg items-center"
+							href="../about">about</a
+						>
+					</li>
+					<!-- </div> -->
+					<!-- <div> -->
+					<li>
+						<a
+							class="font-futura no-underline text-white px-3  uppercase tracking-wider font-medium not-italic text-reg items-center"
+							href="../news">news</a
+						>
+					</li>
+					<!-- </div> -->
 					<div class="dropdown">
 						<!-- svelte-ignore a11y-invalid-attribute -->
 						<a
-							class="font-futura no-underline text-white px-5 lap:px-4 xl:px-3 lg:px-1.5 md:px-.75 uppercase tracking-wider font-medium not-italic text-reg items-center"
+							class="font-futura no-underline text-white px-3   uppercase tracking-wider font-medium not-italic text-reg items-center"
 							href="#"
 						>
 							portfolio</a
@@ -47,17 +50,17 @@
 							<a href="../portfolio/liqueurs">liqueurs</a>
 						</div>
 					</div>
-					<div>
-						<li>
-							<a
-								class="font-futura no-underline text-white px-5 lap:px-4 xl:px-3 lg:px-1.5 md:px-.75 pt-2 uppercase tracking-wider font-medium not-italic text-reg items-center"
-								href="../portfolio/shop">shop</a
-							>
-						</li>
-					</div>
+					<!-- <div> -->
+					<li>
+						<a
+							class="font-futura no-underline text-white px-3 pt-2 uppercase tracking-wider font-medium not-italic text-reg items-center"
+							href="../portfolio/shop">shop</a
+						>
+					</li>
+					<!-- </div> -->
 					<div>
 						<li class="flex">
-							<img class=" my-2 pl-2 pr-1" src="../images/shopping-cart 1.png" alt="cart icon" />
+							<img class=" my-2 pr-1" src="../images/shopping-cart 1.png" alt="cart icon" />
 							<a
 								class="font-futura no-underline text-white pt-1 uppercase tracking-wider font-medium not-italic text-reg items-center mt-1"
 								href="../portfolio/cart">cart</a

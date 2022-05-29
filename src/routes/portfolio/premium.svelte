@@ -6,8 +6,12 @@
 </script>
 
 <Nav />
-<section class="flex bg-premium-top bg-right h-580px bg-no-repeat text-white">
-	<div class="grid justify-items-center w-1/3 ml-16 my-12 items-center text-center">
+<section
+	class="grid bg-premium-top bg-right sm-min:min-h-full bg-no-repeat text-white grid-cols-3 sm-min:grid-cols-2"
+>
+	<div
+		class="grid grid-cols-1 sm:min-grid-cols-2  justify-items-center items-center text-center col-span-2 sm-min:col-span-1 my-12  mx-12"
+	>
 		<h1 class="uppercase text-sm text-kartuli-peach font-futura mb-4">our collections</h1>
 		<h2 class="uppercase text-2xl font-basker leading-8 ">premium</h2>
 		<p class="mt-7 font-josefin text-sm leading-6 font-light">
@@ -28,7 +32,7 @@
 		premium <br /> collection
 	</h3>
 	<!-- 				Reserve				 -->
-	<div class="grid grid-cols-6 ml-14 mt-28  items-center justify-items-center">
+	<div class="grid grid-cols-3 sm-min:grid-cols-6 mx-14 mt-28  items-center justify-items-center">
 		<img src="../images/premium-reserve.jpg" alt="premium reserve" />
 		<div class=" col-span-2 mt-20">
 			<h4 class="font-basker capitalize text-kartuli-orange text-xl mb-5">reserve</h4>
@@ -52,7 +56,7 @@
 		</div>
 	</div>
 	<!-- 					Heritage				 -->
-	<div class="grid grid-cols-6 ml-14 mt-28  items-center justify-items-center">
+	<div class="grid grid-cols-3 sm-min:grid-cols-6 mx-14 mt-28  items-center justify-items-center">
 		<img src="../images/premium-heritage.jpg" alt="premium heritage" />
 		<div class=" col-span-2 mt-20">
 			<h4 class="font-basker capitalize text-kartuli-orange text-xl mb-5">heritage</h4>
