@@ -6,9 +6,14 @@
 </script>
 
 <Nav />
-<section class="flex bg-copper-still bg-right h-580px bg-no-repeat text-white">
-	<div class="grid justify-items-center w-1/3 ml-16 my-12 items-center text-center">
-		<h1 class="uppercase text-sm text-kartuli-peach font-futura mb-4">our collections</h1>
+<section
+	class="grid bg-copper-still-mobile sm-min:bg-copper-still md-min:bg-copper-still-sm bg-right sm-min:min-h-full bg-no-repeat text-white grid-cols-3 sm-min:grid-cols-2 "
+>
+	<div
+		class="grid grid-cols-1 sm:min-grid-cols-2  justify-items-center   items-center text-center col-span-2 sm-min:col-span-1 mx-12"
+	>
+		<!-- ml-16  -->
+		<h1 class="uppercase text-sm text-kartuli-peach font-futura my-8">our collections</h1>
 		<h2 class="uppercase text-2xl font-basker leading-8 ">artisan</h2>
 		<p class="mt-7 font-josefin text-sm leading-6 font-light">
 			Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente quasi odit perferendis
@@ -28,7 +33,7 @@
 		artisan <br /> collection
 	</h3>
 	<!-- 				Elite				 -->
-	<div class="grid grid-cols-6 ml-14 mt-28  items-center justify-items-center">
+	<div class="grid grid-cols-3 sm-min:grid-cols-6 mx-14 mt-28  items-center justify-items-center">
 		<img src="../images/artisan-elite2.jpg" alt="artisan elite" />
 		<div class=" col-span-2 mt-20">
 			<h4 class="font-basker capitalize text-kartuli-orange text-xl mb-5">elite</h4>
@@ -48,11 +53,11 @@
 				eos esse dolores, Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio,
 				fugit? Ipsam possimus eos esse dolores,
 			</p>
-			<a href="/learn-more" class="uppercase underline text-tiny">learn more</a>
+			<a href="/product-descriptions/passion" class="uppercase underline text-tiny">learn more</a>
 		</div>
 	</div>
 	<!-- 					Niight Vibes				 -->
-	<div class="grid grid-cols-6 ml-14 mt-28  items-center justify-items-center">
+	<div class="grid grid-cols-3 sm-min:grid-cols-6 mx-14 mt-12  items-center justify-items-center">
 		<img src="../images/artisan-night2.jpg" alt="artisan night vibes" />
 		<div class=" col-span-2 mt-20">
 			<h4 class="font-basker capitalize text-kartuli-orange text-xl mb-5">night vibes</h4>
@@ -61,7 +66,9 @@
 				eos esse dolores, Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio,
 				fugit? Ipsam possimus eos esse dolores,
 			</p>
-			<a href="/learn-more" class="uppercase underline text-tiny">learn more</a>
+			<a href="/product-descriptions/night-vibes" class="uppercase underline text-tiny"
+				>learn more</a
+			>
 		</div>
 
 		<!-- 					Silk					 -->
@@ -73,7 +80,7 @@
 				eos esse dolores, Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio,
 				fugit? Ipsam possimus eos esse dolores,
 			</p>
-			<a href="/learn-more" class="uppercase underline text-tiny">learn more</a>
+			<a href="/product-descriptions/silk" class="uppercase underline text-tiny">learn more</a>
 		</div>
 	</div>
 </section>

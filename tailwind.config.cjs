@@ -27,9 +27,16 @@ module.exports = {
       'vineyard': "url('/images/vineyard-2.jpg')",
       'vineyard-sm': "url('/images/vineyard-sm.jpg')",
       'drink-collection': "url('/images/drink-with-bar.jpg')",
-      'copper-still': "url('/images/copper-still-sm.jpg')",
+      'copper-still': "url('/images/copper-still-wide.jpg')",
+      'copper-still-sm': "url('/images/copper-still - Copy.jpg')",
+      'copper-still-mobile': "url('/images/copper-still-mobile.jpg')",
       'premium-top': "url('/images/premium-top.jpg')",
       'flavored-top': "url('/images/flavored-top.jpg')",
+      'brandy-top': "url('/images/brandy-top.png')",
+      'liqueur-top': "url('/images/liqueur-top.png')",
+      'international-top': "url('/images/international-top.png')",
+      'elite-top': "url('/images/productDescription_Passion_TopSection.jpg')",
+      'elite-second': "url('/images/productDescription_Passion_Section2.png')",
     },
     variants: {
       display: ["group-hover"]
