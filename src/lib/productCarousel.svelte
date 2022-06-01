@@ -1,7 +1,4 @@
 <script>
-	import Icon from 'svelte-awesome';
-	import chevronLeft from 'svelte-awesome/icons/chevronLeft';
-	import chevronRight from 'svelte-awesome/icons/chevronRight';
 	import { onMount } from 'svelte';
 
 	let Carousel; //for saving Carousel component class

@@ -27,28 +27,28 @@
 <Nav />
 <main>
 	<section class="section-1">
-		<div
-			class="grid auto-col-max py-28 lg:py-26 xl:py-22 px-24 lg:px-5 xl:px-3 w-2/5 lg:w-1/2 xl:w-3/5"
-		>
-			<h2
-				class="font-futura font-medium text-center text-base leading-5 uppercase tracking-wider text-white"
-			>
-				introducing kartuli's new
-			</h2>
-			<p
-				class="font-basker font-normal text-3xl tracking-wider text-center uppercase text-kartuli-orange p-1 m-3"
-			>
-				fig vodka
-			</p>
-			<p class="font-josefin font-light text-center not-italic leading-6 text-white">
-				It's sweetness is subtle enough to be mixed <br />and matched to enhance any of your
-				favorite classic cocktail recipes.
-			</p>
-			<div class="btnWrapper">
-				<button
-					class="bg-white text-black  py-2 px-4 lg:px- border border-black hover:border-kartuli-orange rounded-none align-middle mt-4 uppercase font-futura not-italic font-medium text-xs leading-3 tracking-wider justify-center"
-					type="button"><a href="./shop">shop now</a></button
+		<div class="grid grid-cols-4 ">
+			<div class="m-5 col-span-2">
+				<h2
+					class="font-futura font-medium text-center text-base leading-5 uppercase tracking-wider text-white"
 				>
+					introducing kartuli's new
+				</h2>
+				<p
+					class="font-basker font-normal text-3xl tracking-wider text-center uppercase text-kartuli-orange p-1 m-3"
+				>
+					fig vodka
+				</p>
+				<p class="font-josefin font-light text-center not-italic leading-6 text-white">
+					It's sweetness is subtle enough to be mixed <br />and matched to enhance any of your
+					favorite classic cocktail recipes.
+				</p>
+				<div class="btnWrapper">
+					<button
+						class="bg-white text-black  py-2 px-4 lg:px- border border-black hover:border-kartuli-orange rounded-none align-middle mt-4 uppercase font-futura not-italic font-medium text-xs leading-3 tracking-wider justify-center"
+						type="button"><a href="./shop">shop now</a></button
+					>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -108,7 +108,7 @@
 
 	.section-1 {
 		background-image: url(/images/homePage_Section2.jpg);
-		background-attachment: fixed;
+		// background-attachment: fixed;
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: cover;

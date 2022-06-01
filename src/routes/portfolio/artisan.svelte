@@ -7,10 +7,10 @@
 
 <Nav />
 <section
-	class="grid bg-copper-still-mobile sm-min:bg-copper-still md-min:bg-copper-still-sm bg-right sm-min:min-h-full bg-no-repeat text-white grid-cols-3 sm-min:grid-cols-2 "
+	class="grid bg-copper-still-mobile sm-min:bg-copper-still md-min:bg-copper-still-sm bg-top md-min:bg-right  bg-no-repeat text-white grid-cols-4 col-span-3 sm-min:grid-cols-2 "
 >
 	<div
-		class="grid grid-cols-1 sm:min-grid-cols-2  justify-items-center   items-center text-center col-span-2 sm-min:col-span-1 mx-12"
+		class="grid grid-cols-1 sm:min-grid-cols-2  justify-items-center   items-center text-center col-span-3 sm-min:col-span-1 mx-12"
 	>
 		<!-- ml-16  -->
 		<h1 class="uppercase text-sm text-kartuli-peach font-futura my-8">our collections</h1>
