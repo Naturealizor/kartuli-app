@@ -8,7 +8,9 @@
 <Nav />
 <main>
 	<section class="bg-white">
-		<p class="px-36 py-20 font-josefin text-center text-xl text-black">
+		<p
+			class=" py-6 px-6 sm-min:px-12 sm-min:py-12 font-josefin text-center text-base sm-min:text-xl md-min:text-2xl  text-black"
+		>
 			Kartuli was established in 2012. Although the way we went through heretofore may be called a
 			preparative period. The period, when it was being formed a perfect model and contents. It took
 			three years for selecting the best service - staff for our organization. The very staff,
@@ -20,12 +22,14 @@
 		</p>
 	</section>
 	<!-- 			1			 -->
-	<div class="bg-black flex">
-		<h1 class="text-kartuli-orange uppercase text-center text-4xl my-5 mx-auto font-basker">
+	<div class="bg-black flex items-center">
+		<h1
+			class="text-kartuli-orange uppercase text-center text-xl sm-min:text-2xl md-min:text-3xl my-5 mx-auto font-basker"
+		>
 			introduction to kartuli
 		</h1>
-		<p class="text-white my-6 pr-2 capitalize">watch video</p>
-		<a href="/" class="pr-8 py-4"><img src="../images/about-watch-btn.png" alt="play button" /></a>
+		<p class="text-white my-6 pr-2 capitalize text-center">watch video</p>
+		<a href="/" class="pr-2 py-4"><img src="../images/about-watch-btn.png" alt="play button" /></a>
 	</div>
 	<!-- 			2				 -->
 	<div>
@@ -33,22 +37,26 @@
 	</div>
 
 	<div class="bg-black flex">
-		<h2 class="text-kartuli-orange uppercase text-center text-4xl my-5 mx-auto font-basker">
+		<h2
+			class="text-kartuli-orange uppercase text-center text-xl sm-min:text-2xl md-min:text-3xl my-5 mx-auto font-basker"
+		>
 			distillation proccess
 		</h2>
-		<p class="text-white my-6 pr-2">watch video</p>
-		<a href="/" class="pr-8 py-4"><img src="../images/about-watch-btn.png" alt="play button" /></a>
+		<p class="text-white my-6 pr-2 capitalize text-center">watch video</p>
+		<a href="/" class="pr-2 py-4"><img src="../images/about-watch-btn.png" alt="play button" /></a>
 	</div>
 	<div>
 		<picture><img src="../images/about-2.jpg" alt="distillery" /></picture>
 	</div>
 	<!-- 			3			 -->
 	<div class="bg-black flex">
-		<h2 class="text-kartuli-orange uppercase text-center text-4xl my-5 mx-auto font-basker">
+		<h2
+			class="text-kartuli-orange uppercase text-center text-xl sm-min:text-2xl md-min:text-3xl my-5 mx-auto font-basker"
+		>
 			introduction to kartuli
 		</h2>
-		<p class="text-white my-6 pr-2">watch video</p>
-		<a href="/" class="pr-8 py-4"><img src="../images/about-watch-btn.png" alt="play button" /></a>
+		<p class="text-white my-6 pr-2 capitalize text-center">watch video</p>
+		<a href="/" class="pr-2 py-4"><img src="../images/about-watch-btn.png" alt="play button" /></a>
 	</div>
 	<div>
 		<picture><img src="../images/about-3.jpg" alt="water falling" /></picture>
