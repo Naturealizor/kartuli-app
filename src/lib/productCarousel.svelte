@@ -1,6 +1,7 @@
 <script>
 	import { onMount } from 'svelte';
 
+	// let screenWidth = window.innerWidth;
 	let Carousel; //for saving Carousel component class
 	let carousel; // let carousel; for calling methods of the carousel instance
 	onMount(async () => {
@@ -17,48 +18,45 @@
 	};
 </script>
 
-<div class="bg-white px-16 items-end;">
+<!-- {#if window.innerWidth > 650} -->
+<div class="bg-white ;">
 	<h2 class="centeredSectionTitle">portfolio selections</h2>
+	<!-- <div class="grid"> -->
 
 	<div class="flex">
-		<svelte:component
-			this={Carousel}
-			bind:this={carousel}
-			particlesToShow={5}
-			particlesToScroll={1}
-		>
-			<div class="prodCard" style="padding-left: 25px;">
+		<svelte:component this={Carousel} bind:this={carousel} particlesToShow={3}>
+			<div class="pb-6 justify-end">
 				<img class="prodImg" src="../images/carouselArtisan.png" alt="Artisan" />
 				<div class="prodDescription">
 					<h4>Artisan</h4>
 				</div>
 			</div>
 
-			<div class="prodCard" style="align-self: end;">
+			<div class="py-0 justify-end items-end">
 				<img class="prodImg" src="../images/KARTULI_RESERVE.png" alt="Artisan" />
 				<div class="prodDescription">
 					<h4>Premium</h4>
 				</div>
 			</div>
-			<div class="prodCard" style="align-self: end;">
+			<div class=" justify-end">
 				<img class="prodImg" src="../images/vodka plain bottle 2 2.png" alt="Artisan" />
 				<div class="prodDescription">
 					<h4>Flavored</h4>
 				</div>
 			</div>
-			<div class="prodCard" style="align-self: end;">
+			<div class="pb-6 justify-items-end">
 				<img class="prodImg" src="../images/Frame_860.png" alt="Artisan" />
 				<div class="prodDescription">
 					<h4>International</h4>
 				</div>
 			</div>
-			<div class="prodCard" style="align-self: end;">
+			<div class="pb-6 justify-items-end">
 				<img class="prodImg" src="../images/Group 672.png" alt="Artisan" />
 				<div class="prodDescription">
 					<h4>Brandy</h4>
 				</div>
 			</div>
-			<div class="prodCard" style="align-self: end;">
+			<div class="pb-6 justify-items-end">
 				<img class="prodImg" src="../images/Frame 860-1.png" alt="Artisan" />
 				<div class="prodDescription">
 					<h4>Liqueurs</h4>
@@ -70,12 +68,10 @@
 		<button on:click={handleNextClick} />
 	</div>
 </div>
+<!-- {/if} -->
 
+<!-- </div> -->
 <style lang="scss">
-	.prodCard {
-		padding-bottom: 3em;
-	}
-
 	.prodImg {
 		margin: 0 auto;
 	}
@@ -91,10 +87,6 @@
 		text-transform: uppercase;
 		color: #c88f34;
 		padding-top: 1rem;
-	}
-
-	.prodCard:hover {
-		transform: scale(1.1);
 	}
 	.centeredSectionTitle {
 		text-align: center;
