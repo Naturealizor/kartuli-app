@@ -1,8 +1,8 @@
 <script context="module">
 	import { client } from '$lib/commerce.js';
 
-	export async function load({ page }) {
-		const { permalink } = page?.params;
+	export async function params({ url }) {
+		const { permalink } = url?.params;
 
 		const product = await client.products.retrieve(permalink, {
 			type: 'permalink'

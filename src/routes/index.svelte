@@ -119,17 +119,4 @@
 		background-attachment: scroll;
 		height: 517px;
 	}
-
-	.centeredSectionTitle {
-		text-align: center;
-		color: #c88f34;
-		margin-top: 3%;
-		text-transform: uppercase;
-		font-family: 'Baskerville';
-		font-style: normal;
-		font-weight: 400;
-		font-size: 32px;
-		line-height: 37px;
-		letter-spacing: 0.05em;
-	}
 </style>

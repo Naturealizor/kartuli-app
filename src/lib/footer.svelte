@@ -1,5 +1,5 @@
 <footer>
-	<hr class="border-kartuli-orange border " />
+	<hr class="border-kartuli-orange border" />
 	<!--  -->
 	<div
 		class=" grid grid-cols-1 md-min:grid-cols-3 lg-min:grid-cols-6 gap-2 justify-items-center items-center text-sm justify-around "
@@ -68,11 +68,6 @@
 </footer>
 
 <style lang="scss">
-	// * {
-	// 	box-sizing: border-box;
-	// 	margin: 0;
-	// 	padding: 0;
-	// }
 	a {
 		font-family: 'Futura Md BT Medium';
 		font-style: normal;
@@ -82,20 +77,7 @@
 		letter-spacing: 0.05em;
 		text-transform: uppercase;
 		color: var(--white);
-		// padding: 1em;
 		text-decoration: none;
 		text-align: center;
-	}
-
-	.footer-right {
-		// grid-column: 9 / span 2;
-
-		h5 {
-			// margin-top: 0.5rem;
-		}
-		a {
-			// margin: 0.5rem;
-			// padding: 0;
-		}
 	}
 </style>

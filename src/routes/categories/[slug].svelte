@@ -1,8 +1,8 @@
 <script context="module">
 	import { client } from '$lib/commerce.js';
 
-	export async function load({ page }) {
-		const { slug } = page?.params;
+	export async function params({ url }) {
+		const { slug } = url?.params;
 
 		const category = await client.categories.retrieve(slug, {
 			type: 'slug'

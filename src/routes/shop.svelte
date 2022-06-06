@@ -22,15 +22,19 @@
 </script>
 
 <Nav />
-<ul>
-	{#each categories as category}
-		<li>
-			<a rel="prefetch" href="/categories/{category.slug}">{category.name}</a>
-		</li>
-	{/each}
-</ul>
+<section>
+	<h2 class="text-kartuli-orange uppercase font-futura text-center mt-8">select a category</h2>
+	<h1 class="text-white uppercase font-basker text-center text-3xl">online shop</h1>
+	<ul class="flex flex-row-reverse  text-white gap-3 justify-center my-6">
+		{#each categories as category}
+			<li class="hover:text-kartuli-orange">
+				<a rel="prefetch" href="/categories/{category.slug}">{category.name}</a>
+			</li>
+		{/each}
+	</ul>
+</section>
 
-<ul>
+<ul class="text-white">
 	{#each products as product}
 		<li>
 			<a rel="prefetch" href="/product/{product.permalink}">{product.name}</a>

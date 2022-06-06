@@ -19,6 +19,7 @@ module.exports = {
       colors: {
         'kartuli-orange': '#c88f34',
         'kartuli-peach': '#FFCF8F',
+        'kartuli-orange-dark': '#8E6128',
         
       },
     },
@@ -38,6 +39,7 @@ module.exports = {
       'elite-top': "url('/images/productDescription_Passion_TopSection.jpg')",
       'elite-second': "url('/images/productDescription_Passion_Section2.png')",
       'distillery-top': "url('/images/distillery-top.jpg')",
+      'club-top': "url('/images/kartuli-club-top.jpg')",
     },
     variants: {
       display: ["group-hover"]
