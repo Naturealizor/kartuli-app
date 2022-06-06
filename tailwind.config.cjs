@@ -37,6 +37,7 @@ module.exports = {
       'international-top': "url('/images/international-top.png')",
       'elite-top': "url('/images/productDescription_Passion_TopSection.jpg')",
       'elite-second': "url('/images/productDescription_Passion_Section2.png')",
+      'distillery-top': "url('/images/distillery-top.jpg')",
     },
     variants: {
       display: ["group-hover"]

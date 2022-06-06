@@ -25,38 +25,38 @@
 
 	<div class="flex">
 		<svelte:component this={Carousel} bind:this={carousel} particlesToShow={3}>
-			<div class="pb-6 justify-end">
+			<div class="pb-6 justify-end hover:scale-105">
 				<img class="prodImg" src="../images/carouselArtisan.png" alt="Artisan" />
 				<div class="prodDescription">
 					<h4>Artisan</h4>
 				</div>
 			</div>
 
-			<div class="py-0 justify-end items-end">
+			<div class="pb-6 justify-end items-end hover:scale-105">
 				<img class="prodImg" src="../images/KARTULI_RESERVE.png" alt="Artisan" />
 				<div class="prodDescription">
 					<h4>Premium</h4>
 				</div>
 			</div>
-			<div class=" justify-end">
+			<div class="pb-6 justify-end hover:scale-105">
 				<img class="prodImg" src="../images/vodka plain bottle 2 2.png" alt="Artisan" />
 				<div class="prodDescription">
 					<h4>Flavored</h4>
 				</div>
 			</div>
-			<div class="pb-6 justify-items-end">
+			<div class="pb-6 justify-items-end hover:scale-105">
 				<img class="prodImg" src="../images/Frame_860.png" alt="Artisan" />
 				<div class="prodDescription">
 					<h4>International</h4>
 				</div>
 			</div>
-			<div class="pb-6 justify-items-end">
+			<div class="pb-6 justify-items-end hover:scale-105">
 				<img class="prodImg" src="../images/Group 672.png" alt="Artisan" />
 				<div class="prodDescription">
 					<h4>Brandy</h4>
 				</div>
 			</div>
-			<div class="pb-6 justify-items-end">
+			<div class="pb-6 justify-items-end hover:scale-105">
 				<img class="prodImg" src="../images/Frame 860-1.png" alt="Artisan" />
 				<div class="prodDescription">
 					<h4>Liqueurs</h4>
