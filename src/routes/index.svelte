@@ -26,7 +26,7 @@
 />
 <Nav />
 <main>
-	<section class="section-1">
+	<section class="bg-kartuli-fig bg-no-repeat bg-center bg-cover h-[517px]">
 		<div class="grid grid-cols-4 ">
 			<div class="m-5 col-span-2">
 				<h2
@@ -57,8 +57,14 @@
 
 	<section class="section-3">
 		<div class="flex flex-col items-center ">
-			<h2 class="centeredSectionTitle">innovative georgian craftsmanship</h2>
-			<p class="font-josefin-lite text-2xl  leading-7 text-black text-center w-2/5 mx-auto mt-8">
+			<h2
+				class="font-basker font-normal text-center tracking-wider leading-9 text-2xl text-kartuli-orange mt-5 uppercase px-5"
+			>
+				innovative georgian craftsmanship
+			</h2>
+			<p
+				class="font-josefin text-xl text-black text-center px-5 sm-min:px-8 md-min:px-24 lg-min:px-36 mt-6"
+			>
 				Kartuli Vodka is a luxurious ultra-premium vodka made from fine Georgian grapes to be the
 				toast of modern luxury.
 			</p>
@@ -68,33 +74,33 @@
 			>
 		</div>
 	</section>
-	<section class="grid grid-cols-3 gap-5 gap-y-5 mt-5 mb-2 w-full">
+	<section class="grid grid-cols-1 sm-min:grid-cols-3 gap-2 gap-y-2 my-2 w-full">
 		<picture class="col-span-1 bg-cover">
 			<img src="./images/drink-collection-1-md.jpg" alt="citrus drink" />
 		</picture>
-		<picture>
+		<picture class="col-span-1 bg-cover">
 			<img src="./images/drink-collection-2-md.jpg" alt="pink fizzy drink" />
 		</picture>
 		<picture>
 			<img src="./images/drink-collection-3-md.jpg" alt="cucumber drink" />
 		</picture>
-		<picture class="col-span-2 my-0">
+		<picture class="col-span-1 sm-min:col-span-2">
 			<img src="./images/drink-collection-big2.jpg" alt="friends cheering drinks" />
 		</picture>
 		<picture>
 			<div class=" bg-kartuli-orange grid-cols-3 grid-rows-2 relative">
 				<img class="" src="./images/drink-collection-text.jpg" alt="rum and coke" />
-				<h3
-					class="flex capitalize font-basker text-white text-2xl  xl:text-xl lg:text-base absolute bottom-5 xl:bottom-1 left-4 z-20"
-				>
-					kartuli drink collection
-				</h3>
-				<!-- xl:bottom-2   xl:py-2 xl:px-3 -->
-				<button
-					on:click={redirect}
-					class="absolute right-6 xl:right-4  bottom-4 border py-3 font-futura text-tiny uppercase border-black"
-					>drink recipies</button
-				>
+				<div class="grid grid-cols-2">
+					<h3 class="capitalize font-basker text-white text-2xl sm-min:text-base px-4">
+						kartuli drink collection
+					</h3>
+					<!-- xl:bottom-2   xl:py-2 xl:px-3 -->
+					<button
+						on:click={redirect}
+						class="absolute right-2 border my-2 py-4 sm-min:py-2  font-futura text-base sm-min:text-tiny uppercase border-black"
+						>drink recipies</button
+					>
+				</div>
 			</div>
 		</picture>
 	</section>
@@ -106,33 +112,11 @@
 		text-align: center;
 	}
 
-	.section-1 {
-		background-image: url(/images/homePage_Section2.jpg);
-		// background-attachment: fixed;
-		background-repeat: no-repeat;
-		background-position: center;
-		background-size: cover;
-		height: 517px;
-	}
-
 	.section-3 {
 		background-image: url(/images/vineyard-2.jpg);
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-attachment: scroll;
 		height: 517px;
-	}
-
-	.centeredSectionTitle {
-		text-align: center;
-		color: #c88f34;
-		margin-top: 3%;
-		text-transform: uppercase;
-		font-family: 'Baskerville';
-		font-style: normal;
-		font-weight: 400;
-		font-size: 32px;
-		line-height: 37px;
-		letter-spacing: 0.05em;
 	}
 </style>

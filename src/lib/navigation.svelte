@@ -54,7 +54,7 @@
 					<li>
 						<a
 							class="font-futura no-underline text-white px-3 pt-2 uppercase tracking-wider font-medium not-italic text-reg items-center"
-							href="../portfolio/shop">shop</a
+							href="../shop">shop</a
 						>
 					</li>
 					<!-- </div> -->
@@ -63,7 +63,7 @@
 							<img class=" my-2 pr-1" src="../images/shopping-cart 1.png" alt="cart icon" />
 							<a
 								class="font-futura no-underline text-white pt-1 uppercase tracking-wider font-medium not-italic text-reg items-center mt-1"
-								href="../portfolio/cart">cart</a
+								href="../cart">cart</a
 							>
 						</li>
 					</div>
