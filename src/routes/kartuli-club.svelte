@@ -5,28 +5,36 @@
 
 <Nav />
 <main>
-	<section class="grid grid-cols-4 bg-club-top bg-cover bg-no-repeat bg-center">
-		<div class="p-12 col-span-3 sm-min:col-span-2">
-			<h1 class="text-white text-3xl uppercase font-basker">kartuli club</h1>
-			<p class="text-white font-josefin-lite p-2 text-sm">
+	<section
+		class="grid grid-cols-4 md-min:grid-cols-6 xl-min:grid-cols-12 bg-club-top bg-cover bg-no-repeat bg-center"
+	>
+		<div
+			class="p-12 col-span-3 sm-min:col-span-2 md-min:col-span-3 xl-min:col-span-5 xl-min:col-start-2"
+		>
+			<h1 class="text-white text-3xl md-min:text-5xl uppercase font-basker">kartuli club</h1>
+			<p
+				class="text-white font-josefin-lite py-8 text-sm sm-min:text-base lg-min:text-lg lg-min:pr-24 md-min:pb-16"
+			>
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, pariatur asperiores!
 				Architecto neque nobis ex maxime labore doloremque ipsam omnis distinctio ducimus. Officiis
 				maxime consequuntur porro rerum facere iste adipisci!
 			</p>
 		</div>
 	</section>
-	<section class="bg-white">
-		<h2>club membership</h2>
-		<p>
+	<section class="bg-white pb-8">
+		<h2 class="text-center pt-8 pb-6 text-2xl uppercase font-basker">club membership</h2>
+		<p class="px-6 sm-min:px-12 md-min:px-16 font-josefin-lite">
 			In 2015 it was casted a limited number of the "Gold", whereupon the very process is not
 			repeated any more. Each bottle has its unique number.
 		</p>
-		<p>
+		<br />
+		<p class="px-6 sm-min:px-12 md-min:px-16 font-josefin-lite">
 			Wise as OLD VINE, aged and seasoned - the personality traits, which since the olden times
 			would be attributed not only to drinks made from grapes of old vines, but also to people
 			earning such esteem.
 		</p>
-		<p>
+		<br />
+		<p class="px-6 sm-min:px-12 md-min:px-16 font-josefin-lite">
 			Limited Eddition Chacha finds its origins in old Kakhetian vineyards saved and famous for
 			their old vines of Kakhuri Mstvane and Rkatsiteli. Thoughtfully selected grapes from these
 			vineyards are harvested and vinified in Georgian traditional way giving wines vibrancy of the
@@ -37,7 +45,8 @@
 			of its expected properties. Having reached final unique taste profile, Chacha ZEARIS is
 			bottled for your complete enjoyment.
 		</p>
-		<p>
+		<br />
+		<p class="px-6 sm-min:px-12 md-min:px-16 font-josefin-lite">
 			Limited Edition Chacha color is a harmonic play of ember and golden hues. Aroma of citrus
 			flowers is echoed by the bouquet of fried nuts and dried fruits. Palate is velvety soft and
 			bountiful, pronouncing slightly pungent tannins and finishes with a pleasant tingle
@@ -45,9 +54,11 @@
 		</p>
 	</section>
 	<section class="bg-black">
-		<h2 class="text-white">benefits</h2>
-		<p class="text-white">Limited Edition Chacha has been created for your sophisticated taste.</p>
-		<p class="text-white">
+		<h2 class="text-white text-center pt-8 pb-6 text-2xl uppercase font-basker">benefits</h2>
+		<p class="text-white px-6 font-josefin-lite text-center">
+			Limited Edition Chacha has been created for your sophisticated taste.
+		</p>
+		<p class="text-white px-6 font-josefin-lite pb-6 text-center">
 			Besides the fact that you will be informed about all the news happening in the company, you
 			can also use the following services:
 		</p>

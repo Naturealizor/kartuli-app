@@ -8,7 +8,7 @@ module.exports = {
       },
       fontSize: {
         'tiny': '.5rem',
-        'reg': '.75rem',
+        'reg': '.6rem',
       },
       fontFamily: {
         'futura': ['Futura Md BT Medium'],
@@ -40,29 +40,30 @@ module.exports = {
       'elite-second': "url('/images/productDescription_Passion_Section2.png')",
       'distillery-top': "url('/images/distillery-top.jpg')",
       'club-top': "url('/images/kartuli-club-top.jpg')",
+      'home-grid-4-xl': "url('/images/home-grid-4-xl.jpg')",
     },
     variants: {
       display: ["group-hover"]
     },
     screens: {
-      '2xl': {'max': '1535px'},
+      // '2xl': {'max': '1535px'},
       // => @media (max-width: 1535px) { ... }
       
-      'lap': { 'max': '1440px' },
+      // 'lap': { 'max': '1440px' },
       
-      'xl': {'max': '1320px'},
+      // 'xl': {'max': '1320px'},
       // => @media (max-width: 1279px) { ... }
       
-      'md-b': { 'max': '1125px'},
+      // 'md-b': { 'max': '1125px'},
       
-      'lg': {'max': '1023px'},
+      // 'lg': {'max': '1023px'},
       // => @media (max-width: 1023px) { ... }
 
 
-      'md': {'max': '767px'},
+      // 'md': {'max': '767px'},
       // => @media (max-width: 767px) { ... }
 
-      'sm': {'max': '639px'},
+      // 'sm': {'max': '639px'},
       // => @media (max-width: 639px) { ... }
 
 // ---------------------------------------------------------------------------------------------------

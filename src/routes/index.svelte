@@ -84,8 +84,8 @@
 		<picture>
 			<img src="./images/drink-collection-3-md.jpg" alt="cucumber drink" />
 		</picture>
-		<picture class="col-span-1 sm-min:col-span-2">
-			<img src="./images/drink-collection-big2.jpg" alt="friends cheering drinks" />
+		<picture class="col-span-1 sm-min:col-span-2 bg-home-grid-4-xl">
+			<!-- <img src="./images/drink-collection-big-md.jpg" alt="friends cheering drinks" /> -->
 		</picture>
 		<picture>
 			<div class=" bg-kartuli-orange grid-cols-3 grid-rows-2 relative">
