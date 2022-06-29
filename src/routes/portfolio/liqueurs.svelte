@@ -7,12 +7,12 @@
 
 <Nav />
 <section
-	class="grid bg-liqueur-top bg-right sm-min:min-h-full bg-no-repeat text-white grid-cols-3 sm-min:grid-cols-2 "
+	class="grid bg-liqueur-top bg-center bg-cover bg-no-repeat text-white grid-cols-4 col-span-3 sm-min:grid-cols-2 lg-min:grid-cols-8 lg-min:min-h-[500px] "
 >
 	<div
-		class="grid grid-cols-1 sm:min-grid-cols-2  justify-items-center   items-center text-center col-span-2 sm-min:col-span-1 my-12 mx-12"
+		class="flex flex-col justify-center items-center text-center col-span-4 sm-min:col-span-1 lg-min:col-span-2 lg-min:col-start-2 lg-min:col mx-12 md-min:mx-2"
 	>
-		<h1 class="uppercase text-sm text-kartuli-peach font-futura mb-4">our collections</h1>
+		<h1 class="uppercase text-sm text-kartuli-peach font-futura mt-8">our collections</h1>
 		<h2 class="uppercase text-2xl font-basker leading-8 ">kartuli liqueurs</h2>
 		<p class="mt-7 font-josefin text-sm leading-6 font-light">
 			Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente quasi odit perferendis
@@ -32,7 +32,7 @@
 		kartuli liqueurs
 	</h3>
 	<!-- 				tropical passion				 -->
-	<div class="grid grid-cols-3 sm-min:grid-cols-6 mx-14 mt-28  items-center justify-items-center">
+	<div class="grid grid-cols-3 sm-min:grid-cols-6 mx-14 mt-20  items-center justify-items-center">
 		<img src="../images/liqueur-tropical.jpg" alt="tropical passion" />
 		<div class=" col-span-2 mt-20">
 			<h4 class="font-basker capitalize text-kartuli-orange text-xl mb-5">tropical passion</h4>
@@ -59,7 +59,7 @@
 		</div>
 	</div>
 	<!-- 					apricot elixer				 -->
-	<div class="grid grid-cols-3 sm-min:grid-cols-6 mx-14 mt-28  items-center justify-items-center">
+	<div class="grid grid-cols-3 sm-min:grid-cols-6 mx-14 mt-20  items-center justify-items-center">
 		<img src="../images/liqueur-apricot.jpg" alt="apricot elixer vibes" />
 		<div class=" col-span-2 mt-20">
 			<h4 class="font-basker capitalize text-kartuli-orange text-xl mb-5">apricot elixer</h4>
@@ -86,7 +86,7 @@
 		</div>
 	</div>
 	<!-- 									cocoa 					 -->
-	<div class="grid grid-cols-3 sm-min:grid-cols-6 mx-14 mt-28  items-center justify-items-center">
+	<div class="grid grid-cols-3 sm-min:grid-cols-6 mx-14 mt-20  items-center justify-items-center">
 		<img src="../images/liqueur-cocoa.jpg" alt="cocoa bean liqueur" />
 		<div class=" col-span-2 mt-20">
 			<h4 class="font-basker capitalize text-kartuli-orange text-xl mb-5">cocoa bean</h4>

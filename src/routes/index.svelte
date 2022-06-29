@@ -21,25 +21,29 @@
 <video
 	muted
 	loop
-	class="md:hidden  bg-center bg-fixed bg-cover w-full"
+	class="md:hidden bg-center bg-fixed bg-cover w-full"
 	src="./images/2022-04-29 21-20-00.mp4"
 />
 <Nav />
 <main>
-	<section class="bg-kartuli-fig bg-no-repeat bg-center bg-cover h-[517px]">
-		<div class="grid grid-cols-4 ">
-			<div class="m-5 col-span-2">
+	<section
+		class="bg-kartuli-fig-sm sm-min:bg-kartuli-fig bg-no-repeat bg-center sm-min:bg-left bg-cover min-h-[517px]"
+	>
+		<div class="grid grid-cols-4 lg-min:grid-cols-8 pt-24 pl-5">
+			<div
+				class=" col-span-2 lg-min:col-span-3 col-start-2 sm-min:col-start-1 bg-slate-700 bg-opacity-60 sm-min:bg-transparent"
+			>
 				<h2
-					class="font-futura font-medium text-center text-base leading-5 uppercase tracking-wider text-white"
+					class="font-futura font-medium text-center text-sm leading-5 uppercase tracking-wider text-white"
 				>
 					introducing kartuli's new
 				</h2>
 				<p
-					class="font-basker font-normal text-3xl tracking-wider text-center uppercase text-kartuli-orange p-1 m-3"
+					class="font-basker font-normal text-2xl tracking-wider text-center uppercase text-kartuli-orange p-1 m-3"
 				>
 					fig vodka
 				</p>
-				<p class="font-josefin font-light text-center not-italic leading-6 text-white">
+				<p class="font-josefin font-light text-center not-italic leading-6 text-white text-base">
 					It's sweetness is subtle enough to be mixed <br />and matched to enhance any of your
 					favorite classic cocktail recipes.
 				</p>
@@ -74,7 +78,7 @@
 			>
 		</div>
 	</section>
-	<section class="grid grid-cols-1 sm-min:grid-cols-3 gap-2 gap-y-2 my-2 w-full">
+	<section class="grid grid-cols-1 sm-min:grid-cols-3 gap-4 my-4 w-full">
 		<picture class="col-span-1 bg-cover">
 			<img src="./images/drink-collection-1-md.jpg" alt="citrus drink" />
 		</picture>
@@ -84,11 +88,11 @@
 		<picture>
 			<img src="./images/drink-collection-3-md.jpg" alt="cucumber drink" />
 		</picture>
-		<picture class="col-span-1 sm-min:col-span-2 bg-home-grid-4-xl">
-			<!-- <img src="./images/drink-collection-big-md.jpg" alt="friends cheering drinks" /> -->
+		<picture class="col-span-1 sm-min:col-span-2 bg-cheers-1 bg-no-repeat bg-cover min-h-[200px] ">
+			<!-- <img src="./images/drink-collection-big2.jpg" alt="friends cheering drinks" /> -->
 		</picture>
 		<picture>
-			<div class=" bg-kartuli-orange grid-cols-3 grid-rows-2 relative">
+			<div class=" bg-kartuli-orange grid-cols-3 grid-rows-2 relative min-h-[200px]">
 				<img class="" src="./images/drink-collection-text.jpg" alt="rum and coke" />
 				<div class="grid grid-cols-2">
 					<h3 class="capitalize font-basker text-white text-2xl sm-min:text-base px-4">
@@ -103,6 +107,53 @@
 				</div>
 			</div>
 		</picture>
+	</section>
+	<section class="bg-white">
+		<!-- section with a title and four cards -->
+		<h3 class="text-black uppercase text-4xl text-center pt-4">upcoming events</h3>
+		<div class="grid grid-cols-1 sm-min:grid-cols-2 p-10 gap-8 justify-items-center">
+			<div class="flex gap-2">
+				<picture class="">
+					<img src="./images/event-1.jpg" alt="event 1" />
+				</picture>
+				<div class="flex-col">
+					<h4 class="text-kartuli-orange pb-5 text-xl">USA Trade Tasting(USATT) Show</h4>
+					<p>Date goes here</p>
+					<p>City</p>
+				</div>
+			</div>
+
+			<div class="flex gap-2">
+				<picture class="">
+					<img src="./images/event-1.jpg" alt="event 2" />
+				</picture>
+				<div class="flex-col">
+					<h4 class="text-kartuli-orange pb-5 text-xl">USA Trade Tasting(USATT) Show</h4>
+					<p>Date goes here</p>
+					<p>City</p>
+				</div>
+			</div>
+			<div class="flex gap-2">
+				<picture class="">
+					<img src="./images/event-1.jpg" alt="event 3" />
+				</picture>
+				<div class="flex-col">
+					<h4 class="text-kartuli-orange pb-5 text-xl">USA Trade Tasting(USATT) Show</h4>
+					<p>Date goes here</p>
+					<p>City</p>
+				</div>
+			</div>
+			<div class="flex gap-2">
+				<picture class="">
+					<img src="./images/event-1.jpg" alt="event 4" />
+				</picture>
+				<div class="flex-col">
+					<h4 class="text-kartuli-orange pb-5 text-xl">USA Trade Tasting(USATT) Show</h4>
+					<p>Date goes here</p>
+					<p>City</p>
+				</div>
+			</div>
+		</div>
 	</section>
 	<Footer />
 </main>
