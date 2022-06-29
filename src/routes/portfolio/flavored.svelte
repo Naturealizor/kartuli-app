@@ -7,12 +7,12 @@
 
 <Nav />
 <section
-	class="grid bg-flavored-top bg-right sm-min:min-h-full bg-no-repeat text-white grid-cols-3 sm-min:grid-cols-2 "
+	class="grid bg-flavored-top bg-left md-min:bg-right md-min:bg-contain bg-no-repeat text-white grid-cols-4 col-span-3 sm-min:grid-cols-2 lg-min:grid-cols-8 lg-min:min-h-[500px]"
 >
 	<div
-		class="grid grid-cols-1 sm:min-grid-cols-2  justify-items-center   items-center text-center col-span-2 sm-min:col-span-1 mx-12"
+		class="flex flex-col justify-center items-center text-center col-span-4 sm-min:col-span-1 lg-min:col-span-2 lg-min:col-start-2 lg-min:col mx-12 md-min:mx-2"
 	>
-		<h1 class="uppercase text-sm text-kartuli-peach font-futura mb-4">our collections</h1>
+		<h1 class="uppercase text-sm text-kartuli-peach font-futura mt-8">our collections</h1>
 		<h2 class="uppercase text-2xl font-basker leading-8 ">artisan</h2>
 		<p class="mt-7 font-josefin text-sm leading-6 font-light">
 			Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente quasi odit perferendis
@@ -43,9 +43,7 @@
 				eos esse dolores, Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio,
 				fugit? Ipsam possimus eos esse dolores,
 			</p>
-			<a href="/product-descriptions/pomegranate" class="uppercase underline text-tiny"
-				>learn more</a
-			>
+			<a href="/product-descriptions/pomegranate" class="uppercase underline text-sm">learn more</a>
 		</div>
 		<!-- 				fig					 -->
 		<img src="../images/flavor-fig.jpg" alt="fig vodka" />
@@ -56,7 +54,7 @@
 				eos esse dolores, Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio,
 				fugit? Ipsam possimus eos esse dolores,
 			</p>
-			<a href="/product-descriptions/fig" class="uppercase underline text-tiny">learn more</a>
+			<a href="/product-descriptions/fig" class="uppercase underline text-sm">learn more</a>
 		</div>
 	</div>
 	<!-- 					black cherry				 -->
@@ -69,8 +67,7 @@
 				eos esse dolores, Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio,
 				fugit? Ipsam possimus eos esse dolores,
 			</p>
-			<a href="/product-descriptions/black-cherry" class="uppercase underline text-tiny"
-				>learn more</a
+			<a href="/product-descriptions/black-cherry" class="uppercase underline text-sm">learn more</a
 			>
 		</div>
 
@@ -84,7 +81,7 @@
 				eos esse dolores, Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio,
 				fugit? Ipsam possimus eos esse dolores,
 			</p>
-			<a href="/product-descriptions/peach" class="uppercase underline text-tiny">learn more</a>
+			<a href="/product-descriptions/peach" class="uppercase underline text-sm">learn more</a>
 		</div>
 	</div>
 	<!-- 					pear					 -->
@@ -97,7 +94,7 @@
 				eos esse dolores, Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio,
 				fugit? Ipsam possimus eos esse dolores,
 			</p>
-			<a href="/product-descriptions/pear" class="uppercase underline text-tiny">learn more</a>
+			<a href="/product-descriptions/pear" class="uppercase underline text-sm">learn more</a>
 		</div>
 		<!-- 					mandarin					 -->
 		<img src="../images/flavor-mandarin.jpg" alt="mandarin vodka" />
@@ -108,8 +105,17 @@
 				eos esse dolores, Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio,
 				fugit? Ipsam possimus eos esse dolores,
 			</p>
-			<a href="/learn-more" class="uppercase underline text-tiny">learn more</a>
+			<a href="/learn-more" class="uppercase underline text-sm">learn more</a>
 		</div>
 	</div>
 </section>
+<div>
+	<!-- need to make a button redirecting to flavored.svelte -->
+	<a
+		href="./flavored-2"
+		class="flex justify-end uppercase underline text-kartuli-orange text-center text-sm font-basker p-4"
+	>
+		next page
+	</a>
+</div>
 <Footer />

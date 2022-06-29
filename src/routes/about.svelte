@@ -9,7 +9,7 @@
 <main>
 	<section class="bg-white">
 		<p
-			class=" py-6 px-6 sm-min:px-12 sm-min:py-12 font-josefin text-center text-base sm-min:text-xl md-min:text-2xl  text-black"
+			class=" py-6 px-10 sm-min:px-12 sm-min:py-12 font-josefin text-center text-sm sm-min:text-xl md-min:text-2xl  text-black"
 		>
 			Kartuli was established in 2012. Although the way we went through heretofore may be called a
 			preparative period. The period, when it was being formed a perfect model and contents. It took

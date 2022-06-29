@@ -5,11 +5,26 @@
 
 <Nav />
 <main class="bg-white text-center">
-	<div>
-		<a href="/terms-conditions"><h2>terms & conditions</h2></a>
-		<a href="/privacy-policy"><h2>privacy policy</h2></a>
-		<a href="/cookie-policy"><h2>cookies policy</h2></a>
+	<div class="flex justify-center py-8 px-6">
+		<div class="flex flex-row gap-4 md-min:gap-6 xl-min:gap-28">
+			<a
+				href="/terms-conditions"
+				class="uppercase text-lg sm-min:text-xl md-min:text-2xl lg-min:text-3xl font-basker"
+				><h2>terms & conditions</h2></a
+			>
+			<a
+				href="/privacy-policy"
+				class="uppercase text-lg sm-min:text-xl md-min:text-2xl lg-min:text-3xl font-basker"
+				><h2>privacy policy</h2></a
+			>
+			<a
+				href="/cookie-policy"
+				class="uppercase text-lg sm-min:text-xl md-min:text-2xl lg-min:text-3xl font-basker"
+				><h2>cookies policy</h2></a
+			>
+		</div>
 	</div>
+
 	<section>
 		<h3>terms & conditions</h3>
 		<h3>Accessing Our Website</h3>

@@ -20,7 +20,7 @@
 					<!-- <div> -->
 					<li>
 						<a
-							class="font-futura no-underline text-white px-3  uppercase tracking-wider font-medium not-italic text-reg items-center"
+							class="font-futura no-underline text-white px-3 xl-min:pr-5 xl-min:px-0 xl-min:text-base uppercase tracking-wider font-medium not-italic text-reg items-center"
 							href="../about">about</a
 						>
 					</li>
@@ -28,7 +28,7 @@
 					<!-- <div> -->
 					<li>
 						<a
-							class="font-futura no-underline text-white px-3  uppercase tracking-wider font-medium not-italic text-reg items-center"
+							class="font-futura no-underline text-white px-3 xl-min:pr-5 xl-min:px-0 xl-min:text-base uppercase tracking-wider font-medium not-italic text-reg items-center"
 							href="../news">news</a
 						>
 					</li>
@@ -36,7 +36,7 @@
 					<div class="dropdown">
 						<!-- svelte-ignore a11y-invalid-attribute -->
 						<a
-							class="font-futura no-underline text-white px-3   uppercase tracking-wider font-medium not-italic text-reg items-center"
+							class="font-futura no-underline text-white px-3 xl-min:pr-5 xl-min:px-0 xl-min:text-base  uppercase tracking-wider font-medium not-italic text-reg items-center"
 							href="#"
 						>
 							portfolio</a
@@ -53,7 +53,7 @@
 					<!-- <div> -->
 					<li>
 						<a
-							class="font-futura no-underline text-white px-3 pt-2 uppercase tracking-wider font-medium not-italic text-reg items-center"
+							class="font-futura no-underline text-white px-3 xl-min:pr-5 xl-min:px-0 xl-min:text-base t-2 uppercase tracking-wider font-medium not-italic text-reg items-center"
 							href="../shop">shop</a
 						>
 					</li>
@@ -62,7 +62,7 @@
 						<li class="flex">
 							<img class=" my-2 pr-1" src="../images/shopping-cart 1.png" alt="cart icon" />
 							<a
-								class="font-futura no-underline text-white pt-1 uppercase tracking-wider font-medium not-italic text-reg items-center mt-1"
+								class="font-futura no-underline text-white pt-1 xl-min:pt-0 uppercase tracking-wider font-medium not-italic text-reg xl-min:text-base items-center mt-1"
 								href="../cart">cart</a
 							>
 						</li>

@@ -86,7 +86,7 @@
 					</p>
 				</div>
 				<div class="grid grid-cols-1 justify-items-center">
-					<img src="../images/anthony-ditton-1.png" alt="George Gobeehia" class="justify-center" />
+					<img src="../images/placeholder-pic.jpg" alt="George Gobeehia" class="justify-center" />
 					<h3 class="text-white uppercase text-xl text-center">george gobeehia</h3>
 					<h4 class="text-kartuli-orange uppercase text-sm text-center">master distiller</h4>
 					<p class="text-white text-center">
@@ -97,7 +97,7 @@
 				</div>
 				<div class="grid grid-cols-1 justify-items-center">
 					<img
-						src="../images/anthony-ditton-1.png"
+						src="../images/placeholder-pic.jpg"
 						alt="Aleksandre Gobeehia"
 						class="justify-center"
 					/>
@@ -110,7 +110,7 @@
 					</p>
 				</div>
 				<div class="grid grid-cols-1 justify-items-center">
-					<img src="../images/keti-jurkhadze.png" alt="Keti Jurkhadze" class="justify-center" />
+					<img src="../images/placeholder-pic.jpg" alt="Keti Jurkhadze" class="justify-center" />
 					<h3 class="text-white uppercase text-xl text-center">keti jurkhadze</h3>
 					<h4 class="text-kartuli-orange uppercase text-sm text-center">
 						vineyard & grape advisor
@@ -180,9 +180,11 @@
 					</p>
 				</div>
 				<div class="grid grid-cols-1 justify-items-center">
-					<img src="../images/anthony-ditton-1.png" alt="Anthony Ditton" class="justify-center" />
-					<h3 class="text-white uppercase text-xl text-center">anthony ditton</h3>
-					<h4 class="text-kartuli-orange uppercase text-sm text-center">ceo/coo</h4>
+					<img src="../images/placeholder-pic.jpg" alt="Anthony Ditton" class="justify-center" />
+					<h3 class="text-white uppercase text-xl text-center">TBA</h3>
+					<h4 class="text-kartuli-orange uppercase text-sm text-center">
+						client services director
+					</h4>
 					<p class="text-white text-center">
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam corporis optio
 						excepturi, minima explicabo sint perspiciatis corrupti nisi distinctio debitis nobis

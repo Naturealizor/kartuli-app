@@ -7,19 +7,18 @@
 
 <Nav />
 <section
-	class="grid bg-premium-top bg-right sm-min:min-h-full bg-no-repeat text-white grid-cols-3 sm-min:grid-cols-2"
+	class="grid bg-premium-top bg-top md-min:bg-right md-min:bg-contain bg-no-repeat text-white grid-cols-4 col-span-3 sm-min:grid-cols-2 lg-min:grid-cols-8 lg-min:min-h-[600px]"
 >
 	<div
-		class="grid grid-cols-1 sm:min-grid-cols-2  justify-items-center items-center text-center col-span-2 sm-min:col-span-1 my-12  mx-12"
+		class="flex flex-col justify-center items-center text-center col-span-4 sm-min:col-span-1 lg-min:col-span-2 lg-min:col-start-2 lg-min:col mx-12 md-min:mx-2"
 	>
-		<h1 class="uppercase text-sm text-kartuli-peach font-futura mb-4">our collections</h1>
+		<h1 class="uppercase text-sm text-kartuli-peach font-futura mt-8">our collections</h1>
 		<h2 class="uppercase text-2xl font-basker leading-8 ">premium</h2>
 		<p class="mt-7 font-josefin text-sm leading-6 font-light">
 			Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente quasi odit perferendis
 			laboriosam ad ducimus minus, omnis cum possimus, in iste exercitationem veritatis assumenda
 			beatae odio mollitia sequi, qui temporibus. omnis cum possimus, in iste exercitationem
-			veritatis assumenda beatae odio mollitia sequi, qui temporibus. omnis cum possimus, in iste
-			exercitationem veritatis assumenda beatae odio mollitia
+			veritatis assumenda beatae odio mollitia sequi, qui temporibus.
 		</p>
 		<img src="../images/arrow-1.png" alt="downward arrow" class="place-content-center mt-8" />
 		<a href="#collection" class="text-kartuli-peach mt-2 scroll-smooth">view collection</a>
@@ -41,7 +40,7 @@
 				eos esse dolores, Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio,
 				fugit? Ipsam possimus eos esse dolores,
 			</p>
-			<a href="/product-descriptions/reserve" class="uppercase underline text-tiny">learn more</a>
+			<a href="/product-descriptions/reserve" class="uppercase underline text-sm">learn more</a>
 		</div>
 		<!-- 				Ultra					 -->
 		<img src="../images/premium-ultra.jpg" alt="premium ultra" />
@@ -52,7 +51,7 @@
 				eos esse dolores, Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio,
 				fugit? Ipsam possimus eos esse dolores,
 			</p>
-			<a href="/product-descriptions/ultra" class="uppercase underline text-tiny">learn more</a>
+			<a href="/product-descriptions/ultra" class="uppercase underline text-sm">learn more</a>
 		</div>
 	</div>
 	<!-- 					Heritage				 -->
@@ -65,7 +64,7 @@
 				eos esse dolores, Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio,
 				fugit? Ipsam possimus eos esse dolores,
 			</p>
-			<a href="/product-descriptions/heritage" class="uppercase underline text-tiny">learn more</a>
+			<a href="/product-descriptions/heritage" class="uppercase underline text-sm">learn more</a>
 		</div>
 
 		<!-- 					Tbilisi					 -->
@@ -77,7 +76,7 @@
 				eos esse dolores, Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio,
 				fugit? Ipsam possimus eos esse dolores,
 			</p>
-			<a href="/product-descriptions/tbilisi" class="uppercase underline text-tiny">learn more</a>
+			<a href="/product-descriptions/tbilisi" class="uppercase underline text-sm">learn more</a>
 		</div>
 		<!-- 					Executive					 -->
 		<img src="../images/premium-executive.jpg" alt="artisan silk" />
@@ -88,7 +87,7 @@
 				eos esse dolores, Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio,
 				fugit? Ipsam possimus eos esse dolores,
 			</p>
-			<a href="/product-descriptions/executive" class="uppercase underline text-tiny">learn more</a>
+			<a href="/product-descriptions/executive" class="uppercase underline text-sm">learn more</a>
 		</div>
 	</div>
 </section>
