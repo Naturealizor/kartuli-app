@@ -17,7 +17,7 @@
     "@sveltejs/kit": "next",
     "@zerodevx/svelte-toast": "0.7.2",
     "autoprefixer": "10.4.7",
-    "eslint": "8.18.0",
+    "eslint": "8.57.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-svelte3": "4.0.0",
     "postcss": "8.4.14",
