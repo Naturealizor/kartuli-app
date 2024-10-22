@@ -33,7 +33,7 @@
   "dependencies": {
     "@chec/commerce.js": "2.8.0",
     "netlify-plugin-cloudinary": "1.0.3",
-    "svelte-awesome": "3.0.0",
+    "svelte-awesome": "3.3.5",
     "svelte-fa": "3.0.2"
   }
 }
